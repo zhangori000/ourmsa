@@ -1,0 +1,114 @@
+.pastEventCard {
+  height: 45vw;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  /* z-index: 10; */
+  /* background-color: lightblue; */
+  overflow: hidden;
+  padding-top: 2.5vw;
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.pastEventCard:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.pastEventCard__container {
+  opacity: 0;
+  transition: all 100ms;
+}
+
+.pastEventCard__container.--flipped {
+  opacity: 1;
+}
+
+.pastEventCard__links {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: initial;
+  z-index: 1;
+}
+
+.pastEventCard__link {
+}
+
+.pastEventCard__link > a {
+  text-decoration: none;
+  text-decoration: none;
+  background-color: rgb(115 115 115);
+  color: #f2f2f8;
+  padding: 1vh 2vh;
+  border-radius: 1vh;
+}
+
+.pastEventCard__nolink {
+  font-size: 5vh;
+  text-align: center;
+  font-family: initial;
+  margin: 5vh;
+  height: 100%;
+  width: 100%;
+}
+
+.pastEventCard__background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* transform: rotate(0deg) scale(1.2); */
+  height: 55vh;
+  width: 75%;
+  transition: all 100ms;
+}
+.pastEventCard__background.--flipped {
+  opacity: 0.2;
+  filter: brightness(0.5);
+}
+
+.pastEventCard__text {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 1.5vw;
+}
+
+.pastEventCard__text:hover > .pastEventCard__text__underline {
+  opacity: 1;
+}
+
+.pastEventCard__text h3 {
+  font-size: 5vh;
+  font-family: initial;
+}
+
+.pastEventCard__text__underline {
+  height: 0.3vh;
+  background-color: black;
+  width: 100%;
+  transition: all 300ms;
+  opacity: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .pastEventCard {
+    height: 50vh;
+    width: 80vw;
+  }
+}

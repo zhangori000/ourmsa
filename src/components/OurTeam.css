@@ -1,0 +1,126 @@
+.ourTeam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4vh 6vh;
+  height: 100%;
+  width: 100%;
+}
+
+.ourTeam__container {
+  flex: 0.7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourTeam__container .MuiSvgIcon-root {
+  margin-bottom: 4vh;
+  font-size: 5vh;
+  cursor: pointer;
+}
+
+.ourTeam__left {
+  flex: 0.3 1;
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.ourTeam__left > h3 {
+  font-size: 5vh;
+  margin-bottom: 2vh;
+}
+
+.ourTeam__left > p {
+  font-size: 2vh;
+  letter-spacing: 0.25vh;
+}
+
+.ourTeam__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh;
+}
+
+.ourTeam__right img {
+  height: 40vh;
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+  object-fit: cover;
+  width: 20vw;
+}
+
+.ourTeam__right__member {
+  background-color: #f2f2f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+  border-radius: 2vh;
+  width: 100%;
+  max-width: 50vw;
+  min-width: 50vw;
+  height: 100%;
+}
+
+.ourTeam__right__member__text {
+  padding: 2vh;
+  font-size: 2vh;
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+
+.ourTeam__rightControls {
+  display: flex;
+  margin: 1vh;
+}
+.ourTeam__rightControls__circle {
+  height: 1vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1vh;
+  border-radius: 50%;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.ourTeam__rightControls__circle.--selected {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 750px) {
+  .ourTeam {
+    flex-direction: column;
+  }
+  .ourTeam__right__member {
+    flex-direction: column;
+    border-radius: 2vh;
+    margin-top: 3vh;
+  }
+  .ourTeam__right img {
+    height: 30vh;
+    width: 100%;
+    /* border-top-left-radius: 2vh; */
+    /* border-bottom-left-radius: 2vh; */
+    /* border-radius: 12px; */
+    /* margin-top: 17px; */
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 0;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+  }
+
+  .ourTeam__right__member__text {
+    max-height: 30vh;
+    min-height: 30vh;
+  }
+}

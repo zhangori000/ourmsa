@@ -1,0 +1,47 @@
+.pastEvents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.pastEvents__roll {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+
+.pastEvents__roll#roll1 {
+}
+
+.pastEvents__textBlock {
+  font-family: "LiShuFont";
+  display: flex;
+  min-height: 30vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 5vh;
+  padding: 3vh;
+  /* background-color: #c9c9c930; */
+  margin: 1vh;
+  margin-bottom: 10vh;
+  border-radius: 4vh;
+  text-align: center;
+}
+
+.pastEvents__bigroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+@media (max-width: 720px) {
+}

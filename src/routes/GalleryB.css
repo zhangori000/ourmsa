@@ -1,0 +1,56 @@
+.galleryB__introductionContainer {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+
+.galleryB__introductionContainer > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.35);
+}
+
+.galleryB__introduction {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galleryB__introduction > p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: whitesmoke;
+}
+
+.galleryB__container {
+  height: fit-content;
+  min-height: 100vh;
+  padding-top: 15vh;
+  padding-bottom: 13vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 2vw;
+  padding: 2vw;
+}
+
+.galleryB__container__pillar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.galleryB__imgContainer {
+}
+.galleryB__imgContainer > img {
+  /* width: 30vw; */
+  width: 100%;
+}

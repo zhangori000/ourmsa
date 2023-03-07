@@ -1,0 +1,21 @@
+.footer {
+  height: 100px;
+  background-color: #8e8e8e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.footer__container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+  margin: 0 35px;
+}
+
+.footer__container > h6 {
+  font-size: 13px;
+}

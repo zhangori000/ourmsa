@@ -1,13 +1,72 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./routes/App";
+import ErrorPage from "./error-page";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./routes/About";
+import Schedule from "./routes/Schedule";
+import Home, { getVideoUrls as videoUrlsLoader } from "./routes/Home";
+// import Gallery, { getGalleryUrls as galleryLoader } from "./routes/Gallery";
+import Minneapolis from "./routes/Minneapolis";
+import Seattle from "./routes/Seattle";
+import Volunteer, { loader as volunteerLoader } from "./routes/Volunteer";
+import GalleryB, { loader as galleryBLoader } from "./routes/GalleryB";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+        loader: videoUrlsLoader,
+      },
+      // {
+      //   path: "about/",
+      //   element: <About />,
+      // },
+      {
+        path: "schedule/",
+        element: <Schedule />,
+      },
+      // {
+      //   path: "gallery/",
+      //   element: <Gallery />,
+      //   loader: galleryLoader,
+      // },
+      {
+        path: "gallery/:location/:pictureType",
+        element: <GalleryB />,
+        loader: galleryBLoader,
+      },
+      {
+        path: "locations/minneapolis",
+        element: <Minneapolis />,
+        // loader: minneapolisLoader,
+      },
+      {
+        path: "locations/seattle",
+        element: <Seattle />,
+        // loader: seattleLoader,
+      },
+      {
+        path: "volunteer/:location",
+        element: <Volunteer />,
+        loader: volunteerLoader,
+      },
+    ],
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

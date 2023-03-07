@@ -1,0 +1,6 @@
+.schedule {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  align-items: center;
+  padding: 5vh;
+}

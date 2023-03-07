@@ -1,0 +1,201 @@
+.gallery {
+}
+
+.gallery__block {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.gallery__block__background {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center 43%;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.gallery__block__info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: white;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery__block__info > h1 {
+  font-size: 10vh;
+  font-weight: 700;
+}
+.gallery__block__info > p {
+  font-size: 4vh;
+  font-weight: revert;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gallery__block__info__button {
+  outline: none;
+  padding: 2vh 7vh;
+  border: none;
+  /* border-top-right-radius: 15px; */
+  /* border-bottom-left-radius: 15px; */
+  border-radius: 25px;
+  margin-top: 7vh;
+  margin-bottom: 3vh;
+  cursor: pointer;
+  background-color: #0f131f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery__block__info__button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: all 500ms;
+}
+
+.gallery__block__gallery {
+  position: absolute;
+  bottom: 2%;
+  left: 20%;
+  right: 20%;
+  height: 25%;
+  color: white;
+}
+
+.gallery__block__controls {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.gallery__block__controls .MuiSvgIcon-root {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.gallery__block__gallery__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.gallery__block__gallery__littleImg {
+  transition: all 500ms;
+  height: 5vh;
+  width: 5vh;
+  margin: 1%;
+  border-radius: 8%;
+  cursor: pointer;
+  filter: blur(0.75px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery__block__gallery__littleImg:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+.gallery__block__gallery__littleImg--selected {
+  filter: none;
+  transform: scale(1.25) !important;
+  margin: 4%;
+}
+
+.gallery__block__gallery__controls {
+}
+
+.gallery__block__gallery__controls__pauseButton > .MuiSvgIcon-root {
+  color: lightgray;
+  font-size: 4vh;
+}
+
+.gallery__block__gallery__caption {
+  position: absolute;
+  bottom: 4vh;
+  font-size: 2vh;
+  right: 50%;
+  color: gray;
+}
+
+.gallery__selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 4vh;
+  height: 20vh;
+}
+
+.gallery__selector__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gallery__selector__container .gallery__selector__btn {
+  outline: none;
+  padding: 2vh 4vh;
+  margin: 1vh;
+  border-radius: 4vh;
+}
+
+.gallery__block1 {
+  padding: 0 7vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.gallery__block1 img {
+  width: 30%;
+  margin: 1vh;
+}
+
+/* media queries */
+@media screen and (max-width: 730px) {
+  .gallery__block__info {
+    margin: 65px;
+  }
+  .gallery__block__background {
+    background-size: cover;
+  }
+  .gallery__block__gallery {
+    left: 17%;
+    right: 17%;
+  }
+  .gallery__block__info > h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  .gallery__block__info > p {
+    font-size: 20px;
+    font-weight: revert;
+    letter-spacing: 2px;
+    margin-top: 30px;
+  }
+  .gallery__block__gallery__littleImg {
+  }
+  .gallery__block__gallery__littleImg--selected {
+    margin: 13px;
+  }
+}
