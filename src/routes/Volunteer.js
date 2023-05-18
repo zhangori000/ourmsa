@@ -41,7 +41,7 @@ export async function loader({ params }) {
         // url: img_urls_object["volunteerGunDanceHorizontal.jpg"],
         url: "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/volunteerGunDanceHorizontal.jpg",
         heading: "Register as a Volunteer in Minneapolis",
-        text: "Coming soon...",
+        text: "Click the banner!",
       },
       {
         // url: img_urls_object["volunteerJobHorizontal.jpg"],
@@ -60,7 +60,7 @@ export async function loader({ params }) {
       {
         // url: img_urls_object["volunteer_seattle_andyHua.jpg"],
         url: "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/volunteer_seattle_andyHua.jpg",
-        heading: "Register as a Volunteer in Seattle",
+        heading: "Volunteer's Gallery of Seattle",
         text: "Coming soon...",
       },
       {
@@ -88,6 +88,10 @@ function Volunteer() {
 
   const navigateTo = (locationString) => {
     navigate(locationString);
+  };
+
+  const openNewTab = (url) => {
+    window.open(url, "_blank");
   };
 
   return (
@@ -139,7 +143,11 @@ function Volunteer() {
               </div>
             </div>
           </div>
-          <div className="volunteer__cardContainer__card" id="card2">
+          <div
+            className="volunteer__cardContainer__card"
+            id="card2"
+            onClick={() => openNewTab("https://www.ourmsa.org/volunteer")}
+          >
             <div className="volunteer__cardContainer__card__imgBound">
               <img
                 src={websiteInformation[`${location}`][2]["url"]}
