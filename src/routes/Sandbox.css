@@ -1,0 +1,21 @@
+.sandbox {
+    background-image: url(https://img.warriorcats.com/a46c6546-d6a6-45eb-84ae-f52b26a7da0f.jpg);
+    background-size: cover;
+    /* Add any other styling as needed */
+  }  
+
+.title {
+    font-size: 70px;
+    font-family: fantasy;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stuff{
+    padding: 40px;
+    background-color: rgba(209, 255, 202, 0.5);
+}
+

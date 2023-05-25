@@ -1,0 +1,23 @@
+.title2 {
+    font-size: 70px;
+}
+
+.main {
+    background-image: url(https://pbs.twimg.com/media/FI7muW0XsAAcwuI.png);
+    background-size: cover;
+}
+
+.info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 69, 0.2);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.summary {
+    font-size: 20px;
+}

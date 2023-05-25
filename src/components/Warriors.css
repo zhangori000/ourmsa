@@ -1,0 +1,99 @@
+.warrior {
+    padding: 10px;
+    text-align: center;
+}
+
+.warriorImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.credits {
+    font-size: 12px;
+}
+
+.warriorName {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Warriors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center; /* center horizontally */
+    align-content: center; /* center vertically */
+}
+
+#bristlefrost {
+    object-fit: cover;
+    object-position: 0% 49%;
+}
+
+#leafpool {
+    object-fit: cover;
+    object-position: 27% 50%;
+}
+
+#cinderpelt {
+    object-fit: cover;
+    object-position: 50% 14%;
+}
+
+#hollyleaf {
+    object-fit: cover;
+    object-position: 50% 19%;
+}
+
+#bluestar {
+    object-fit: cover;
+    object-position: 85% 50%;
+}
+
+#rootspring {
+    object-fit: cover;
+    object-position: -75% 50%;   
+}
+
+#gray_wing {
+    object-fit: cover;
+}
+
+#jayfeather {
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+
+#firestar {
+    object-fit: cover;
+}
+
+#ivypool {
+    object-fit: cover;
+    object-position: 130% 50%;
+}
+
+#snowtuft {
+    object-fit: cover;
+}
+
+#brightheart {
+    object-fit: cover;
+    object-position: 45% 30%;
+}
+
+#yellowfang {
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+#briarlight {
+    object-fit: cover;
+    object-position: 98% 50%;
+}
+
+#squirrelflight {
+    object-fit: cover;
+    object-position: 50% -10%;
+}
