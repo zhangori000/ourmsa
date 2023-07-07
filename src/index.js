@@ -14,6 +14,7 @@ import Minneapolis from "./routes/Minneapolis";
 import Seattle from "./routes/Seattle";
 import Volunteer, { loader as volunteerLoader } from "./routes/Volunteer";
 import GalleryB, { loader as galleryBLoader } from "./routes/GalleryB";
+import BlogWriter from "./routes/BlogWriter";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
         path: "volunteer/:location",
         element: <Volunteer />,
         loader: volunteerLoader,
+      },
+      {
+        path: "pictureinsert",
+        element: <BlogWriter />,
       },
     ],
   },
