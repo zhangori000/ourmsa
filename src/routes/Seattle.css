@@ -151,7 +151,7 @@
   background-color: #d7d4d1;
   margin-top: 10vh;
   gap: 9vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 .seattle__schedule__left {
   display: flex;
