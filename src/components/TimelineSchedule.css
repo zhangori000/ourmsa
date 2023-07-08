@@ -57,7 +57,7 @@
 
   /* center the image*/
   display: flex;
-  justify-content: center;
+
   align-items: center;
   overflow: auto;
 

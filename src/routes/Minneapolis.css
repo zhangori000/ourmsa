@@ -68,7 +68,7 @@
   height: 30vh;
   font-weight: normal;
   background-color: #e5e5e5;
-  margin-bottom: 10vh;
+  margin-bottom: 2vh;
   padding: 5vh;
 }
 
@@ -93,7 +93,7 @@
 .mn__theme__blocks {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-gap: 5vh;
+  grid-gap: 2vh;
   justify-content: center;
 }
 

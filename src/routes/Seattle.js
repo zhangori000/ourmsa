@@ -151,22 +151,7 @@ function Seattle() {
               </p>
             </div>
           </div>
-          <div className="seattle__theme__blocks__block">
-            <img
-              src={
-                "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/VRpicture.jpg"
-              }
-              alt=""
-            />
-            <div className="text" id="vrPicture">
-              <h3>主题二：数智时代</h3>
-              <p>
-                特别订制的最IN主题，将会是今年投资最大的先锋课程。一举囊括ChatGPT、元宇宙等最前沿的当
-                红科技硬核，引导学员们接触和思考当下与未来。同时辅以Leadership、团建拓展等课程，培养打
-                造不会被时代淘汰的顶尖人才
-              </p>
-            </div>
-          </div>
+
           <div className="seattle__theme__blocks__block">
             <img
               src={
@@ -175,11 +160,27 @@ function Seattle() {
               alt=""
             />
             <div className="text" id="guyongzhe">
-              <h3> 主题三：四大发明之造纸与印刷</h3>
+              <h3> 主题二：四大发明之造纸与印刷</h3>
               <p>
                 介绍古代文明的辉煌成就，辅以古诗词教学。低年级学习《静夜思》，高年级《水调歌头
                 》。以缺字游戏考察学生对汉字单字的记忆，完成完整活字印刷套装排列。配套手工——造纸和
                 印刷，自制古风书签/贺卡
+              </p>
+            </div>
+          </div>
+          <div className="seattle__theme__blocks__block">
+            <img
+              src={
+                "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/VRpicture.jpg"
+              }
+              alt=""
+            />
+            <div className="text" id="vrPicture">
+              <h3>主题三：数智时代</h3>
+              <p>
+                特别订制的最IN主题，将会是今年投资最大的先锋课程。一举囊括ChatGPT、元宇宙等最前沿的当
+                红科技硬核，引导学员们接触和思考当下与未来。同时辅以Leadership、团建拓展等课程，培养打
+                造不会被时代淘汰的顶尖人才
               </p>
             </div>
           </div>

@@ -79,20 +79,17 @@ function Minneapolis() {
             <div className="mn__theme__blocks__block">
               <img
                 src={
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/xiyouji.jpg"
+                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/guyongzhe.jpg"
                 }
                 alt=""
-                style={{
-                  objectPosition: "0 87%",
-                }}
               />
-              <div className="text" id="xiyouji">
-                <h3>主题一：【大王叫我来巡山】</h3>
+              <div className="text" id="guyongzhe">
+                <h3> 主题一：【孤勇者】的最终幻想</h3>
                 <p>
-                  以四大名著之一的【西游记】为主线，融合诗词、民俗艺术和西游记故事名场面的记忆点，配套
-                  正宗陕西黄牛皮皮影人物材料包，让学生们自己手作，学习配音，团队合作表演《三打白骨精
-                  》。科学课切入点——光和影。
-                  《大王叫我来巡山》神曲再现江湖，配套洗脑搞笑编舞，又会是今年的全营记忆爆点
+                  末世与英雄，环保者与孤勇者。以小当家一贯坚定宣传的环保为主线，用地球不断恶化的现状和
+                  人类自救至今少数拿得出手的新科技发展，新能源开发等内容，灌输忧患，催熟坚强，等待小当
+                  家学员里的英雄们勇敢站起来，环保同行的路上，不孤，惟勇！
+                  STEM集锦，外加全国性网红儿歌，环保项目实地考察
                 </p>
               </div>
             </div>
@@ -128,20 +125,24 @@ function Minneapolis() {
                 </p>
               </div>
             </div>
+
             <div className="mn__theme__blocks__block">
               <img
                 src={
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/guyongzhe.jpg"
+                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/xiyouji.jpg"
                 }
                 alt=""
+                style={{
+                  objectPosition: "0 87%",
+                }}
               />
-              <div className="text" id="guyongzhe">
-                <h3> 主题四：【孤勇者】的最终幻想</h3>
+              <div className="text" id="xiyouji">
+                <h3>主题四：【大王叫我来巡山】</h3>
                 <p>
-                  末世与英雄，环保者与孤勇者。以小当家一贯坚定宣传的环保为主线，用地球不断恶化的现状和
-                  人类自救至今少数拿得出手的新科技发展，新能源开发等内容，灌输忧患，催熟坚强，等待小当
-                  家学员里的英雄们勇敢站起来，环保同行的路上，不孤，惟勇！
-                  STEM集锦，外加全国性网红儿歌，环保项目实地考察
+                  以四大名著之一的【西游记】为主线，融合诗词、民俗艺术和西游记故事名场面的记忆点，配套
+                  正宗陕西黄牛皮皮影人物材料包，让学生们自己手作，学习配音，团队合作表演《三打白骨精
+                  》。科学课切入点——光和影。
+                  《大王叫我来巡山》神曲再现江湖，配套洗脑搞笑编舞，又会是今年的全营记忆爆点
                 </p>
               </div>
             </div>
