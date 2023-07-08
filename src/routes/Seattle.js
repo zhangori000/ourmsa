@@ -6,6 +6,7 @@ import "./Seattle.css";
 import Schedule from "../components/Schedule";
 import OurTeam from "../components/OurTeam";
 import Slideshow from "../components/Slideshow";
+import TimelineSchedule from "../components/TimelineSchedule";
 
 export async function getDataUrls() {
   // const video_order = ["whiteTshirt.mov"];
@@ -202,6 +203,8 @@ function Seattle() {
           />
         </div>
       </div>
+
+      <TimelineSchedule location="seattle" weeks={[1, 2, 3]} />
 
       <div className="seattle__ourTeam">
         <OurTeam

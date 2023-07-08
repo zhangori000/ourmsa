@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Minneapolis.css";
+import TimelineSchedule from "../components/TimelineSchedule";
 import { getDownloadSrc } from "../useful/filePathTools";
 import { useLoaderData } from "react-router-dom";
 
@@ -27,6 +28,7 @@ function Minneapolis() {
   const video_urls = [
     "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/tvDance.mov",
   ];
+
   return (
     <div className="mn">
       <div className="mn__intro">
@@ -168,6 +170,8 @@ function Minneapolis() {
           />
         </div>
       </div>
+      {/* Timeline Scheule! */}
+      <TimelineSchedule location="mn" weeks={[1, 2, 3, 4, 5, 6, 7, 8]} />
       <div className="mn__ourTeam">
         <OurTeam
           teamMembers={[
