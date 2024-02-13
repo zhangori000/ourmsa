@@ -14,6 +14,7 @@ import Minneapolis from "./routes/Minneapolis";
 import Seattle from "./routes/Seattle";
 import Volunteer, { loader as volunteerLoader } from "./routes/Volunteer";
 import GalleryB, { loader as galleryBLoader } from "./routes/GalleryB";
+import Register from "./routes/Register";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
         element: <Volunteer />,
         loader: volunteerLoader,
       },
+      // {
+      //   path: "locations/:location/register",
+      //   element: <Register />,
+      // },
     ],
   },
 ]);

@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 
 import "./OurTeam.css";
-import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import ArrowRight from "@mui/icons-material/ArrowRight";
-import { stepButtonClasses } from "@mui/material";
+
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 function OurTeam({ teamMembers }) {
   const [selectedIdx, setSelectedIdx] = useState(0);
@@ -20,7 +19,7 @@ function OurTeam({ teamMembers }) {
         <p>【明西书院】“中华小当家”夏令营优秀师资</p>
       </div>
       <div className="ourTeam__container">
-        <ArrowLeftIcon
+        <ArrowBackIosIcon
           onClick={() => {
             setSelectedIdx((prev) => {
               if (prev === 0) {
@@ -63,7 +62,7 @@ function OurTeam({ teamMembers }) {
             })}
           </div>
         </div>
-        <ArrowRightIcon
+        <ArrowForwardIosIcon
           onClick={() => {
             setSelectedIdx((prev) => {
               if (prev === teamMembers.length - 1) {

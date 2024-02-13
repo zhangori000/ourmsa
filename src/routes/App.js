@@ -23,6 +23,7 @@ function App() {
     };
   }, []);
 
+  // used to auto scroll the page back to the beginning whenever users click on another page
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,6 +33,7 @@ function App() {
   const contentRef = useRef();
 
   useEffect(() => {
+    // TODO: FIX THE LOGIC
     const traverseDOM = (node) => {
       if (node.nodeType === Node.ELEMENT_NODE) {
         const childNodes = node.childNodes;
