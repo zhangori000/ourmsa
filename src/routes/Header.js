@@ -129,7 +129,7 @@ function Header() {
                   </Link>
                   <Link
                     onClick={toggleClick}
-                    to="https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-family"
+                    to="https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-one-student"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -137,7 +137,7 @@ function Header() {
                   </Link>
                   <Link
                     onClick={toggleClick}
-                    to="https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-one-student"
+                    to="https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-family"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

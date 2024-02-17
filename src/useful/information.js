@@ -387,13 +387,29 @@ export const informationMap = {
         {/* <KeyboardDoubleArrowDownIcon className="home__videoContainer__textContainer__arrowDown" /> */}
       </div>
     ),
+    introductionText: (
+      <div className="textDiv">
+        <p className="text content">
+          西雅图校区，共开办6周。以两大科幻名作《星际穿越》和《三体》为主题构思，在沉浸式中文教学中，巧妙编排各门学科和活动。既有硬核科学的深度和烧脑，又有科学幻想的浪漫和领先，再加上各种多姿多彩的趣味课程，堪称一场历时8周的文理知识大爆炸。
+          6周课程，每周都有独立新颖的学习内容，但又在两大科幻主题下具有巧妙的关联性。
+        </p>
+        <div className="time-items">
+          <p className="text time-item dates">7/08-8/30 (M to F)</p>
+          <p className="text time-item time">8:30 AM - 4:30 PM</p>
+          <p className="text time-item location">
+            Seattle Reformed Presbyterian Church 6554 20th Ave NE, Seattle, WA
+            98115
+          </p>
+        </div>
+      </div>
+    ),
   },
   mn: {
     slideShowImages: [
       {
         img_url:
           "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_weiliScienceBowl.jpg",
-        object_position: "50% 79%",
+        object_position: "50% 50%",
       },
       {
         img_url:
@@ -993,6 +1009,22 @@ export const informationMap = {
         </div>
 
         {/* <KeyboardDoubleArrowDownIcon className="home__videoContainer__textContainer__arrowDown" /> */}
+      </div>
+    ),
+    introductionText: (
+      <div className="textDiv">
+        <p className="text content">
+          明州校区，共开办8周。以两大科幻名作《星际穿越》和《三体》为主题构思，在沉浸式中文教学中，巧妙编排各门学科和活动。既有硬核科学的深度和烧脑，又有科学幻想的浪漫和领先，再加上各种多姿多彩的趣味课程，堪称一场历时8周的文理知识大爆炸。
+          8周课程，每周都有独立新颖的学习内容，但又在两大科幻主题下具有巧妙的关联性。
+        </p>
+        <div className="time-items">
+          <p className="text time-item dates">7/08-8/30 (M to F)</p>
+          <p className="text time-item time">8:30 AM - 4:30 PM</p>
+          <p className="text time-item location">
+            Peace Lutheran Church of Plymouth 3695 County Rd 101, Minneapolis,
+            MN 55446, USA
+          </p>
+        </div>
       </div>
     ),
   },

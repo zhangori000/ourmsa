@@ -43,20 +43,7 @@ function LocationPage({ location }) {
             src={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_${location}_main_science_poster.jpg`}
             alt=""
           />
-          <div className="textDiv">
-            <p className="text content">
-              明州校区，共开办8周。以两大科幻名作《星际穿越》和《三体》为主题构思，在沉浸式中文教学中，巧妙编排各门学科和活动。既有硬核科学的深度和烧脑，又有科学幻想的浪漫和领先，再加上各种多姿多彩的趣味课程，堪称一场历时8周的文理知识大爆炸。
-              8周课程，每周都有独立新颖的学习内容，但又在两大科幻主题下具有巧妙的关联性。
-            </p>
-            <div className="time-items">
-              <p className="text time-item dates">7/08-8/30 (M to F)</p>
-              <p className="text time-item time">8:30 AM - 4:30 PM</p>
-              <p className="text time-item location">
-                Peace Lutheran Church of Plymouth 3695 County Rd 101,
-                Minneapolis, MN 55446, USA
-              </p>
-            </div>
-          </div>
+          {informationMap[location].introductionText}
         </div>
       </div>
       {/* <TimelineSchedule location="mn" weeks={[1, 2, 3, 4, 5, 6, 7, 8]} /> */}
