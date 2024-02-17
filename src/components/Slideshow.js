@@ -9,18 +9,18 @@ function Slideshow({ images }) {
     setCurrentSlide(index);
   };
 
-  useEffect(() => {
-    // console.log("Starting slideshow interval");
-    const intervalId = setInterval(() => {
-      const nextSlide = (currentSlide + 1) % images.length;
-      // console.log(`Current slide: ${currentSlide}, Next slide: ${nextSlide}`);
-      setCurrentSlide(nextSlide);
-    }, 3000);
-    return () => {
-      // console.log("Clearing slideshow interval");
-      clearInterval(intervalId);
-    };
-  }, [currentSlide]);
+  // useEffect(() => {
+  //   // console.log("Starting slideshow interval");
+  //   const intervalId = setInterval(() => {
+  //     const nextSlide = (currentSlide + 1) % images.length;
+  //     // console.log(`Current slide: ${currentSlide}, Next slide: ${nextSlide}`);
+  //     setCurrentSlide(nextSlide);
+  //   }, 3000);
+  //   return () => {
+  //     // console.log("Clearing slideshow interval");
+  //     clearInterval(intervalId);
+  //   };
+  // }, [currentSlide]);
 
   return (
     <div className="slideshow-container">
@@ -55,6 +55,8 @@ function Slideshow({ images }) {
           ></span>
         ))}
       </div>
+
+      <div className="gradient-overlay"></div>
     </div>
   );
 }

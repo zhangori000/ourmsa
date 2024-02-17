@@ -64,6 +64,15 @@ function Home() {
 
   const ref = useRef(null);
 
+  useEffect(() => {
+    const pastEventCards = document.querySelectorAll(".pastEventCard");
+
+    pastEventCards.forEach((card) => {
+      const randomRotation = Math.random() * 10 - 5; // Generate a random
+      card.style.transform = `rotate(${randomRotation}deg)`; // Apply the rotation
+    });
+  }, []); // Run only once after the component mounts
+
   return (
     <div className="home">
       <div className="home__videoContainer">
@@ -93,88 +102,19 @@ function Home() {
         >
           <source src={`${video_urls[videoIdx]}`} type="video/mp4" />
         </video>
-        {/* {video_urls.map((video_url, idx) => {
-          if (idx === videoIdx) {
-            return (
-              <video
-                ref={ref}
-                key={video_url}
-                playsInline
-                autoPlay
-                muted
-                id="bgvid"
-                className={`home__videoContainer__video ${
-                  idx === videoIdx ? "--selected" : ""
-                }`}
-                style={{
-                  backgroundColor: "black",
-                }}
-                onEnded={() => {
-                  ref.current.pause();
-                  ref.current.currentTime = 0;
-                  ref.current.load();
-                  setVideoIdx((prevIdx) => (prevIdx + 1) % video_urls.length);
-                }}
-                onCanPlayThrough={() => {
-                  setIsLoading(false);
-                }}
-                data-videoidx={idx}
-              >
-                <source src={`${video_url}`} type="video/mp4" />
-              </video>
-            );
-          }
-          return (
-            <video
-              key={video_url}
-              playsInline
-              autoPlay
-              muted
-              id="bgvid"
-              className={`home__videoContainer__video ${
-                idx === videoIdx ? "--selected" : ""
-              }`}
-              style={{
-                backgroundColor: "black",
-              }}
-              onEnded={() => {
-                // ref.current.pause();
-                // ref.current.currentTime = 0;
-                // ref.current.load();
-                setVideoIdx((prevIdx) => (prevIdx + 1) % video_urls.length);
-              }}
-              // onCanPlay={() => {
-              //   console.log("idx", idx);
-              //   setIsLoading(false);
-              // }}
-              data-videoidx={idx}
-            >
-              <source src={`${video_url}`} type="video/mp4" />
-            </video>
-          );
-        })} */}
-        {/* <ReactPlayer
-          url={video_urls[videoIdx]}
-          playing
-          volume={0}
-          muted
-          onEnded={() => {
-            setVideoIdx((prev) => (prev + 1) % video_urls.length);
-          }}
-          className="reactVideoComponent"
-        /> */}
         <div className="home__videoContainer__textContainer">
           <h1 translate="no">明西书院</h1>
           <IconButton>
             <KeyboardDoubleArrowDownIcon className="home__videoContainer__textContainer__arrowDown" />
           </IconButton>
         </div>
-        {isLoading ? (
+        {/* {isLoading ? (
           <div className="home__videoContainer__loadingContainer">
             <CircularProgress size={100} thickness={5} />
           </div>
-        ) : null}
+        ) : null} */}
       </div>
+
       <div className="home__introduction">
         <div className="home__introductionContainer">
           <p>
@@ -196,12 +136,24 @@ function Home() {
         </div>
       </div>
 
+      <div className="youtubeContainer">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/f9VM1yg6UAc"
+          title="Unearthed: Journey to Tomorrow【明西.环保战记】PSA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <MobileComponentA
         imgUrls={[
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023-MN-mobile.jpg",
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_mn_mobile_poster.jpg",
         ]}
         text={
-          "这里是“中华小当家”的大本营所在地。自2016年初创至今，一直致力于为当地华人家庭及学习中文的学生们，提供一个具有深度文化内核，又有创新力和吸引力的精品夏令营。经过7年时间的心血打造，明州“中华小当家“以绝对的人气和口碑，成为孩子们最盼望的，也是家长们最放心的热门夏令营首选。"
+          "这里是“中华小当家”的大本营所在地。自2016年初创至今，一直致力于为当地华人家庭及学习中文的学生们，提供一个具有深度文化内核，又有创新力和吸引力的精品夏令营。经过8年时间的心血打造，明州“中华小当家“以绝对的人气和口碑，成为孩子们最盼望的，也是家长们最放心的热门夏令营首选。"
         }
         title={"Minneapolis"}
       />
@@ -210,7 +162,7 @@ function Home() {
           <div className="firstText">
             <div>
               <div className="description">
-                这里是“中华小当家”的大本营所在地。自2016年初创至今，一直致力于为当地华人家庭及学习中文的学生们，提供一个具有深度文化内核，又有创新力和吸引力的精品夏令营。经过7年时间的心血打造，明州“中华小当家“以绝对的人气和口碑，成为孩子们最盼望的，也是家长们最放心的热门夏令营首选。
+                这里是“中华小当家”的大本营所在地。自2016年初创至今，一直致力于为当地华人家庭及学习中文的学生们，提供一个具有深度文化内核，又有创新力和吸引力的精品夏令营。经过8年时间的心血打造，明州“中华小当家“以绝对的人气和口碑，成为孩子们最盼望的，也是家长们最放心的热门夏令营首选。
               </div>
               <div className="location">
                 Minneapolis <Link to="locations/minneapolis">Register</Link>
@@ -222,7 +174,7 @@ function Home() {
         <div className="second">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023-MN-poster.jpg"
+              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattle_main_science_poster.jpg"
             }
             alt="summer camp poster"
           />
@@ -257,10 +209,10 @@ function Home() {
       {/* Seattle */}
       <MobileComponentA
         imgUrls={[
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023-seattle-mobile.jpg",
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_seattle_mobile_poster.jpg",
         ]}
         text={
-          "西雅图分校落户于环境优美，毗邻华大的Ravenna中心地段。优越的地理位置，齐备的运动设施，再加上一批力邀加盟的优秀老师，西雅图团队将把高品质的“中华小当家”中文夏令营，在今夏完美复刻！并将糅合自己的独家特色，为周边的华人家庭和学习中文的孩子们打造三周精彩的暑期生活"
+          "西雅图分校落户于环境优美，毗邻华大的Ravenna中心地段。优越的地理位置，齐备的运动设施，再加上一批力邀加盟的优秀老师，西雅图团队将把高品质的“中华小当家”中文夏令营，在今夏完美复刻！并将糅合自己的独家特色，为周边的华人家庭和学习中文的孩子们打造六周精彩的暑期生活"
         }
         title={"Seattle"}
       />
@@ -268,7 +220,7 @@ function Home() {
         <div className="first">
           <div className="text_first">
             <p>
-              西雅图分校坐落于环境优美，毗邻华大的Ravenna中心地段。优越的地理位置，齐备的运动设施，再加上一批力邀加盟的优秀老师，西雅图团队将把高品质的“中华小当家”中文夏令营，在今夏完美复刻！并将糅合自己的独家特色，为周边的华人家庭和学习中文的孩子们打造三周精彩的暑期生活
+              西雅图分校坐落于环境优美，毗邻华大的Ravenna中心地段。优越的地理位置，齐备的运动设施，再加上一批力邀加盟的优秀老师，西雅图团队将把高品质的“中华小当家”中文夏令营，在今夏完美复刻！并将糅合自己的独家特色，为周边的华人家庭和学习中文的孩子们打造六周精彩的暑期生活
             </p>
             <div className="text_first__bolded">
               <h4>Seattle</h4> <Link to="locations/seattle">Register</Link>
@@ -278,7 +230,7 @@ function Home() {
         <div className="second">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleCherry.jpg"
+              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_groupPictureFirstSeen.jpg"
             }
             alt="cherry tree in seattle"
           />
@@ -286,7 +238,7 @@ function Home() {
         <div className="third">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/downtownSeattle.jpg"
+              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_andrewWorking.jpg"
             }
             alt="downtown seattle"
           />
@@ -294,7 +246,7 @@ function Home() {
         <div className="fourth">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/xiaoDangJiaVertical.jpg"
+              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_amyHappy.jpg"
             }
             alt="company logo vertical"
           />
@@ -302,7 +254,7 @@ function Home() {
         <div className="fifth">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023-seattle-poster.jpg"
+              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattle_main_science_poster.jpg"
             }
             alt="company poster for seattle"
           />

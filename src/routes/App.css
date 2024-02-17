@@ -19,7 +19,7 @@ font-family: 'ZCOOL XiaoWei', sans-serif;
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "IBM Plex Sans";
+  /* font-family: "IBM Plex Sans"; */
 }
 .app {
   width: 100%;

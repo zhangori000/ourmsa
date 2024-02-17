@@ -4,6 +4,12 @@
   background-color: black;
 }
 
+.youtubeContainer {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+
 .home__videoContainer .reactVideoComponent {
   width: 100% !important;
   height: 100% !important;
@@ -30,7 +36,7 @@
   transition: all 300ms;
   /* position: absolute; */
   /* filter: brightness(0.8); */
-  opacity: 0.5;
+  opacity: 0.8;
   /* top: 0;
   left: 0;
   right: 0;
@@ -67,6 +73,10 @@
   padding-top: 1vh;
   padding-bottom: 0px;
   color: white;
+}
+
+.home__videoContainer__textContainer span {
+  font-family: "LiShuFont";
 }
 
 .home__videoContainer__textContainer__arrowDown {
@@ -147,6 +157,11 @@
   right: 60%;
 }
 
+.home__locationsContainer__state .first .firstText .description {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
 .home__locationsContainer__state .first .firstText > div {
   text-decoration: none;
   color: black;
@@ -189,12 +204,13 @@
 
 .home__locationsContainer__state .second {
   position: absolute;
+  top: 30%;
   bottom: 7%;
-  right: 22%;
+  right: 28%;
   z-index: 25;
 }
 .home__locationsContainer__state .second > img {
-  height: 56vh;
+  height: 70vh;
 }
 
 .home__locationsContainer__state .third {
@@ -240,7 +256,7 @@
   width: 52vh;
   height: 28vh;
   background-color: rgb(206, 198, 130, 0.4);
-  right: 10%;
+  right: 1%;
   z-index: 30;
 }
 
@@ -256,7 +272,7 @@
 
 .home__locationsContainer__seattle {
   margin-top: 10vh;
-  height: 100vh;
+  height: 120vh;
   position: relative;
 }
 
@@ -319,7 +335,7 @@
 }
 
 .home__locationsContainer__seattle img {
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 3px rgba(0, 0, 0, 0.5));
 }
 .home__locationsContainer__seattle .second img {
   position: absolute;
@@ -328,10 +344,11 @@
 }
 .home__locationsContainer__seattle .third {
   position: absolute;
-  top: 36%;
+  top: 45%;
+  left: 6%;
 }
 .home__locationsContainer__seattle .third img {
-  height: 19vw;
+  height: 29vw;
 }
 
 .home__locationsContainer__seattle .fourth {
@@ -347,11 +364,11 @@
 
 .home__locationsContainer__seattle .fifth {
   position: absolute;
-  left: 27%;
+  left: 29%;
   top: 35%;
 }
 .home__locationsContainer__seattle .fifth img {
-  height: 29vw;
+  height: 35vw;
 }
 
 .home__past {
@@ -365,7 +382,7 @@
 
 .home__past__container {
   width: 100%;
-  padding: 10vh 15vw;
+  padding: 10vh 10vw;
 }
 
 @media screen and (max-width: 470px) {

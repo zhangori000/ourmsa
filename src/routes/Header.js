@@ -32,9 +32,11 @@ function Header() {
     if (!isClicked) {
       ref1.current.classList.remove("display");
       ref2.current.classList.remove("display");
+      ref2.current.classList.add("move-up");
     } else {
       ref1.current.classList.add("display");
       ref2.current.classList.add("display");
+      ref2.current.classList.remove("move-up");
     }
   }, [isClicked]);
 
@@ -111,15 +113,35 @@ function Header() {
                 <>
                   <Link
                     onClick={toggleClick}
-                    to="https://www.ourmsa.org/registration2023mn"
+                    to="https://www.ourmsa.org/events/2024-summer-camp-registration-one-student"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Minneapolis
+                    Minneapolis (One Child)
                   </Link>
                   <Link
                     onClick={toggleClick}
-                    to="https://www.ourmsa.org/registration2023sea"
+                    to="https://www.ourmsa.org/events/2024-summer-camp-registration-siblings"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Seattle
+                    Minneapolis (Family)
+                  </Link>
+                  <Link
+                    onClick={toggleClick}
+                    to="https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-family"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Seattle (One Child)
+                  </Link>
+                  <Link
+                    onClick={toggleClick}
+                    to="https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-one-student"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Seattle (Family)
                   </Link>
                 </>
               ) : (

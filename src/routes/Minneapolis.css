@@ -221,6 +221,62 @@
   margin-top: 3vh;
 }
 
+.front_poster {
+  /* margin-top: 10vh; */
+  height: 150vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #232424; */
+  /* background-color: #4e515a; */
+  background-color: #15191f;
+  /* #525252 */
+  /* #15191f */
+  padding: 200px;
+  gap: 50px;
+}
+
+.front_poster img {
+  height: 730px;
+  object-fit: contain;
+  flex: 1;
+}
+
+.front_poster > .textDiv {
+  flex: 1;
+  min-width: 260px;
+  width: 260px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.front_poster .text {
+  color: white;
+  line-height: 1.55;
+  font-family: fangsong;
+  font-size: 17.5px;
+}
+
+.front_poster .time-stuff {
+  font-size: 14px;
+}
+
+.front_poster .content {
+  margin-bottom: 25px;
+}
+
+.front_poster .dates {
+}
+
+.front_poster .time {
+  /* font-family: "IBM Plex Sans"; */
+}
+
+.front_poster .location {
+}
+
 /* @media screen and (max-width: 469px) {
   .mn__videoContainer__textContainer {
     font-size: 15vw;
