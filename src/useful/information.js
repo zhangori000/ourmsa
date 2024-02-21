@@ -321,30 +321,12 @@ export const informationMap = {
     weeks: [1, 2, 3],
     teamMembers: [
       {
-        name: "张翎",
-        briefs: [
-          "北京大学学士, 明尼苏达大学物理化学博士，哥伦比亚大学统计学硕士。曾任高级投资风险分析师 （特许金融分析师认证），现任某创业公司财务和项目经理。 多年社区菜地， 小学PTA财务，热衷社区志愿服务.",
-        ],
-        brief_english:
-          "Ling Zhang, B.A Peking University, M.A statistics from Columbia University and PH.D. from University of Minnesota.  Career in financial services at investment consulting company (CFA charter holder). Current treasurer and program manager in a startup company. Many years of experience volunteering in local community garden and school PTA with financial expertise. Dedicated volunteer and supporter for many local community and non-profit organizations.",
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher4.jpg",
-      },
-      {
         name: "朱彦",
         briefs: [
           "现任华盛顿大学中文旗舰项目讲师。华东师范大学应用语言学硕士，曾在复旦大学，新加坡国际学校和美国中文沉浸式小学工作",
         ],
         imgUrl:
           "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher2.jpg",
-      },
-      {
-        name: "刘萌",
-        briefs: [
-          "北卡州公立学校沉浸式中文项目教师。教育学硕士，对外汉语专业。持有初中英语，高中语文，国际汉语教师资格证。曾分别在欧洲，中国，美国的中小学工作，累计学生人数超过一千人，累计上课时数超过5000节课。8年一线对外汉语教学经验",
-        ],
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher1.jpg",
       },
       {
         name: "Jiabang Wu",
@@ -355,13 +337,41 @@ export const informationMap = {
           "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher3.jpg",
       },
       {
-        name: "倩倩",
+        name: "哈斯 Hasi Shaffer",
         briefs: [
-          "幼儿园园长，舞蹈老师，全美瑜伽联盟高级教练.",
-          "我本天上一粒尘，飘落人间，不过游居，做个闲人。而今已然不惑年，因着瑜伽，修身亦修心，但把今昔，落笔为念，笺长存.",
+          `中央工艺美术学院学士。
+        曾经做过 三维模型设计师和手工刺绣图案设计师。
+        在西雅图生活12年，养育两个女儿。
+        现如今，学习传统唐卡绘画艺术两年。创办了小型儿童艺术工作室，为孩子们介绍不同的艺术形式，帮助孩子们通过艺术表达自己。`,
         ],
+        brief_english: `Hasi Shaffer
+          Graduated from The Central Academy of Art and Design in China.
+          Worked as a 3D artist and Embroidery Patten designer.
+          
+          I have been learning Tibetan ThangKa painting for 2 years,  I really enjoy the peacefulness when I focus on all the small details.
+          
+          And I'm running a small kids art studio, it's a joy to share my knowledge about art with the kids, and I love helping them shows themselves through lart. `,
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher5.jpg",
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-newTeacher2.jpg",
+      },
+      {
+        name: "王婷婷 Wang Tingting",
+        briefs: [
+          `我叫王婷婷，已经在美国生活了十三年，曾经毕业于天津师范大学，在中国有近三年的教育经验背景，也在香港教过一年小学生的普通话，来美之后又获得了网页开发专业学位和数据科学硕士学位，平时喜欢和孩子们相处，喜欢毛茸茸的小动物，希望在这个夏天和小朋友们一起度过愉快的时光！`,
+        ],
+        brief_english: `My name is Wang Tingting. I have been living in the United States for thirteen years. I graduated from Tianjin Normal University in China and have nearly three years of teaching experience there. I also taught Mandarin to elementary school students in Hong Kong for a year. Since coming to the U.S., I have obtained degrees in web development and data science. I enjoy spending time with children, love fluffy animals, and look forward to having a joyful summer with the kids!`,
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-newTeacher1.jpg",
+      },
+      {
+        name: "Dr. Jingwei Meng; 孟京伟教授（MBA for Youth）现任职于印第安纳大学",
+        briefs: [
+          "孟教授在北京大学生物系获得本科学位，在Duke大学医学院获得博士学位，同时在Kelley商学院获得金融及供应链管理方面的工商管理硕士学位（MBA）。自 2004 年启，作为NGO组织Melody文化基金会创始人之一，他专注于中美文化交流，系统化的商业知识培养，以及音乐等领域的教育与交流。孟博士从2018年开始编写全面的青少年商业管理精英课程，在美国多个地区已举办多期夏令营和周末学习班，受到学生和家长的广大好评。他同时也担任DECA，FBLA，以及BPA的全国竞赛义务裁判，对面向中学生的商业竞赛有丰富的经验。",
+        ],
+        brief_english:
+          "Dr. Jingwei Meng is currently a faculty member at Indiana University. He obtained his Ph.D. degree from Duke University and a MBA degree in finance and supply chain management from Indiana University Kelley School of Business. Dr. Meng is the co-founder of Melody Culture Foundation, a 501(c)(3) not-for-profit organization established in 2004. He is actively involved in many cultural and educational services, including the first Chinese TV program in San Diego, concerts and master classes in music, summer and winter camps in business, and systematic business training for middle school and high school students. Since 2018, Dr. Meng has developed a comprehensive suite of business courses (“MBA for Youth” Program) and instructed in summer and winter camps across the US. His business classes are also offered as online weekly programs during spring and fall semesters.",
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-indianaProfessor.jpg",
       },
       {
         name: "张天晓",
@@ -370,6 +380,16 @@ export const informationMap = {
         ],
         imgUrl:
           "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacherAmy.jpg",
+      },
+      {
+        name: "张翎",
+        briefs: [
+          "北京大学学士, 明尼苏达大学物理化学博士，哥伦比亚大学统计学硕士。曾任高级投资风险分析师 （特许金融分析师认证），现任某创业公司财务和项目经理。 多年社区菜地， 小学PTA财务，热衷社区志愿服务.",
+        ],
+        brief_english:
+          "Ling Zhang, B.A Peking University, M.A statistics from Columbia University and PH.D. from University of Minnesota.  Career in financial services at investment consulting company (CFA charter holder). Current treasurer and program manager in a startup company. Many years of experience volunteering in local community garden and school PTA with financial expertise. Dedicated volunteer and supporter for many local community and non-profit organizations.",
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher4.jpg",
       },
     ],
     headerHtml: (
