@@ -27,7 +27,7 @@ function OurTeam({ teamMembers }) {
   return (
     <div className="ourTeam">
       <div className="ourTeam__left">
-        <h3>Meet Our Team</h3>
+        <h3>Meet Our Team: </h3>
         <p>【明西书院】“中华小当家”夏令营优秀师资</p>
       </div>
       <div className="ourTeam__container">

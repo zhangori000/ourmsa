@@ -394,7 +394,7 @@ export const informationMap = {
           6周课程，每周都有独立新颖的学习内容，但又在两大科幻主题下具有巧妙的关联性。
         </p>
         <div className="time-items">
-          <p className="text time-item dates">7/08-8/30 (M to F)</p>
+          <p className="text time-item dates">7/08-8/16 (M to F)</p>
           <p className="text time-item time">8:30 AM - 4:30 PM</p>
           <p className="text time-item location">
             Seattle Reformed Presbyterian Church 6554 20th Ave NE, Seattle, WA
@@ -649,13 +649,6 @@ export const informationMap = {
           {
             img_url:
               "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_sharonServingFood.jpg",
-            style: {
-              objectPosition: "50% 50%",
-            },
-          },
-          {
-            img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_skinnyManTeaching.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -989,12 +982,23 @@ export const informationMap = {
           "https://static.wixstatic.com/media/586e06_846ff0e43f8c46fa985c555da6db2b1c~mv2.jpeg/v1/fill/w_362,h_479,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Shen%20Yudong.jpeg",
       },
       {
-        name: "徐竞潇",
+        name: "Dr. Jingwei Meng; 孟京伟教授（MBA for Youth）现任职于印第安纳大学",
         briefs: [
-          "芝加哥大学经济专业统计专业大三学生，有风险投资、私募股权和投资银行丰富实习经历，曾在芝加哥大学布斯商学院担任研究助理。目前是芝加哥大学女性金融社团副主席，负责金融知识教育与普及",
+          "孟教授在北京大学生物系获得本科学位，在Duke大学医学院获得博士学位，同时在Kelley商学院获得金融及供应链管理方面的工商管理硕士学位（MBA）。自 2004 年启，作为NGO组织Melody文化基金会创始人之一，他专注于中美文化交流，系统化的商业知识培养，以及音乐等领域的教育与交流。孟博士从2018年开始编写全面的青少年商业管理精英课程，在美国多个地区已举办多期夏令营和周末学习班，受到学生和家长的广大好评。他同时也担任DECA，FBLA，以及BPA的全国竞赛义务裁判，对面向中学生的商业竞赛有丰富的经验。",
+        ],
+        briefs_english: [
+          "Dr. Jingwei Meng is currently a faculty member at Indiana University. He obtained his Ph.D. degree from Duke University and a MBA degree in finance and supply chain management from Indiana University Kelley School of Business. Dr. Meng is the co-founder of Melody Culture Foundation, a 501(c)(3) not-for-profit organization established in 2004. He is actively involved in many cultural and educational services, including the first Chinese TV program in San Diego, concerts and master classes in music, summer and winter camps in business, and systematic business training for middle school and high school students. Since 2018, Dr. Meng has developed a comprehensive suite of business courses (“MBA for Youth” Program) and instructed in summer and winter camps across the US. His business classes are also offered as online weekly programs during spring and fall semesters.",
         ],
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/Ashley.jpg",
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-indianaProfessor.jpg",
+      },
+      {
+        name: "Dr. Mo Li",
+        briefs: [
+          "Dr. Mo Li is a Professor in the UW Department of Electrical & Computer Engineering and the UW Physics Department. Prior to joining UW in 2018, he was a faculty member in the Department of Electrical and Computer Engineering at the University of Minnesota since 2010. From 2007 to 2010, he was a postdoctoral associate in the Department of Electrical Engineering at Yale University. He received his Ph.D. degree in Applied Physics from Caltech in 2007, B.S. degree in Physics from the University of Science and Technology of China (USTC) in 2001. Dr. Li is the principal investigator of the Laboratory of Photonic Devices at UW. His main research interests include integrated photonics, optoelectronics, optomechanics, NEMS/MEMS, spintronics, and quantum photonics. He has published over 80 peer-reviewed journal papers and has been granted 6 US patents.",
+        ],
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-limoProfilePic.jpg",
       },
     ],
     headerHtml: (

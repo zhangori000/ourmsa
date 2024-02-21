@@ -1,7 +1,6 @@
 import React from "react";
 import { getDownloadSrc } from "../useful/filePathTools";
 import { useLoaderData } from "react-router-dom";
-import "./Seattle.css";
 
 import Schedule from "../components/Schedule";
 import OurTeam from "../components/OurTeam";

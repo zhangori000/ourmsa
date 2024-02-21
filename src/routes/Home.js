@@ -266,6 +266,19 @@ function Home() {
             pastEventsList={[
               {
                 info: {
+                  year: "2023",
+                  links: [
+                    {
+                      title: "2023 Summer Camp Recap",
+                      link: "https://www.meipian0.cn/511sf0ke?first_share_uid=6433294&first_share_to=copy_link&share_depth=1",
+                    },
+                  ],
+                },
+                imgUrl:
+                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_lilianDrawing.jpg",
+              },
+              {
+                info: {
                   year: "2022",
                   links: [
                     {

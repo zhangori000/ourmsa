@@ -7,6 +7,7 @@
   height: 100%;
   width: 100%;
   gap: 3vh;
+  margin-top: 10vh;
 }
 
 .ourTeam__container {
@@ -40,11 +41,15 @@
   font-size: 4vh;
   font-weight: 500;
   margin-bottom: 2vh;
+  letter-spacing: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Open Sans";
 }
 
 .ourTeam__left > p {
-  font-size: 2vh;
-  letter-spacing: 0.25vh;
+  font-size: 3vh;
+  letter-spacing: 0.5vh;
+  font-family: "Open Sans";
 }
 
 .ourTeam__right {

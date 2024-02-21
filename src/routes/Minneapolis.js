@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import "./Minneapolis.css";
 import TimelineSchedule from "../components/TimelineSchedule";
 import { getDownloadSrc } from "../useful/filePathTools";
 import { useLoaderData } from "react-router-dom";
