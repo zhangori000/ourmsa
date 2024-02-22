@@ -198,6 +198,17 @@
 .front_poster img {
   object-fit: contain;
   max-width: 95%;
+  /* opacity: 1;
+  transition: all 300ms ease-in-out;
+  max-height: 100%;
+  max-width: 100%; */
+}
+
+.front_poster .hide_img {
+  /* opacity: 0;
+  max-height: 0%;
+  max-width: 0%; */
+  display: none;
 }
 
 .front_poster .arrow {

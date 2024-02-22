@@ -30,9 +30,16 @@ function LocationPage({ location }) {
   // }, [timelineImgHeight]);
   const [posterIdx, setPosterIdx] = useState(0);
 
-  // const postersJsx = informationMap[location]["bigPosters"].map((obj) => (
-  //   <img key={obj.imgUrl} src={obj.imgUrl} alt={obj.imgUrl} />
-  // ));
+  const postersJsx = informationMap[location]["bigPosters"].map(
+    (obj, index) => (
+      <img
+        className={index === posterIdx ? "" : "hide_img"}
+        key={obj.imgUrl}
+        src={obj.imgUrl}
+        alt={obj.imgUrl}
+      />
+    )
+  );
 
   return (
     <div className="locationPage">
@@ -74,10 +81,11 @@ function LocationPage({ location }) {
               />
             </svg>
 
-            <img
+            {/* <img
               src={informationMap[location]["bigPosters"][posterIdx]["imgUrl"]}
               alt=""
-            />
+            /> */}
+            {postersJsx}
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
