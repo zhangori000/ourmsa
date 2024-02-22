@@ -423,7 +423,24 @@ export const informationMap = {
         </div>
       </div>
     ),
-  },
+    bigPosters: [
+      {
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_seattle_main_science_poster.jpg",
+        backgroundColor: "#15191f",
+      },
+      {
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-cyborgPoster.jpg",
+        backgroundColor: "rgb(8 9 11)",
+      },
+      {
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-mbaPhysics.jpg",
+        backgroundColor: "rgb(8 10 28)",
+      },
+    ],
+  }, // end of seattle
   mn: {
     slideShowImages: [
       {
@@ -1051,5 +1068,22 @@ export const informationMap = {
         </div>
       </div>
     ),
+    bigPosters: [
+      {
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_mn_main_science_poster.jpg",
+        backgroundColor: "#15191f",
+      },
+      {
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-mn-cyborgPoster.jpg",
+        backgroundColor: "rgb(8 9 11)",
+      },
+      {
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-mn-mbaPhysics.jpg",
+        backgroundColor: "rgb(8 10 28)",
+      },
+    ],
   },
 };

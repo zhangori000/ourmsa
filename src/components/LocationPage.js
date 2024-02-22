@@ -28,6 +28,11 @@ function LocationPage({ location }) {
   //   const value = parentHeight * (timelineImgHeight / 100);
   //   timelineImgRef.current.style.height = `${value}px`;
   // }, [timelineImgHeight]);
+  const [posterIdx, setPosterIdx] = useState(0);
+
+  // const postersJsx = informationMap[location]["bigPosters"].map((obj) => (
+  //   <img key={obj.imgUrl} src={obj.imgUrl} alt={obj.imgUrl} />
+  // ));
 
   return (
     <div className="locationPage">
@@ -37,12 +42,70 @@ function LocationPage({ location }) {
           {informationMap[location]["headerHtml"]}
         </div>
       </div>
-      <div className="front_poster_background">
+      <div
+        className="front_poster_background"
+        style={{
+          backgroundColor:
+            informationMap[location]["bigPosters"][posterIdx].backgroundColor,
+        }}
+      >
         <div className="front_poster">
-          <img
-            src={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_${location}_main_science_poster.jpg`}
-            alt=""
-          />
+          <div className="img_picker">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="arrow leftArrow"
+              onClick={() => {
+                setPosterIdx((prev) => {
+                  if (prev - 1 === -1) {
+                    return informationMap[location]["bigPosters"].length - 1;
+                  }
+                  return prev - 1;
+                });
+              }}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+
+            <img
+              src={informationMap[location]["bigPosters"][posterIdx]["imgUrl"]}
+              alt=""
+            />
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="arrow rightArrow"
+              onClick={() => {
+                setPosterIdx((prev) => {
+                  if (
+                    prev + 1 ===
+                    informationMap[location]["bigPosters"].length
+                  ) {
+                    return 0;
+                  }
+                  return prev + 1;
+                });
+              }}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+
           {informationMap[location].introductionText}
         </div>
       </div>
@@ -60,7 +123,7 @@ function LocationPage({ location }) {
       <div className="locationPage__schedule">
         <div className="locationPage__schedule__left">
           <img
-            src={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_${location}_class_grade_distribution.jpg`}
+            src={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-${location}-blackSchedule.jpg`}
             alt={`${location} class schedule`}
           />
         </div>

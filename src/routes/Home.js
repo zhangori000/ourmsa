@@ -266,10 +266,23 @@ function Home() {
             pastEventsList={[
               {
                 info: {
-                  year: "2023",
+                  year: "2023: Seattle",
                   links: [
                     {
-                      title: "2023 Summer Camp Recap",
+                      title: "2023 Seattle Summer Camp Recap",
+                      link: "https://www.meipian0.cn/513ekb8r?share_depth=1&first_share_uid=6433294&first_share_to=copy_link",
+                    },
+                  ],
+                },
+                imgUrl:
+                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_fourGoodFriends.jpg",
+              },
+              {
+                info: {
+                  year: "2023: Minnesota",
+                  links: [
+                    {
+                      title: "2023 Minnesota Summer Camp Recap",
                       link: "https://www.meipian0.cn/511sf0ke?first_share_uid=6433294&first_share_to=copy_link&share_depth=1",
                     },
                   ],

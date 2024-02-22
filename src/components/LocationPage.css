@@ -170,11 +170,13 @@
 }
 
 .front_poster_background {
-  height: 180vh;
+  /* height: 180vh; */
+  height: fit-content;
   background-color: #15191f;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.3 ease-in-out;
 }
 
 .front_poster_background .container {
@@ -188,16 +190,48 @@
   display: flex;
   flex-direction: row;
   gap: 8vw;
-  height: 100%;
+  height: fit-content;
   justify-content: space-evenly;
-  margin-top: 7.5vh;
-  padding: 5vw;
+  padding: 4vw;
 }
 
 .front_poster img {
   object-fit: contain;
-  height: 100%;
-  width: 100%;
+  max-width: 95%;
+}
+
+.front_poster .arrow {
+  width: 5vw;
+  height: 12vh;
+  padding: 1vh;
+  color: white;
+  position: absolute;
+  /* height: 100%; */
+  /* width: 5%; */
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.front_poster .arrow:hover {
+  transform: scale(1.2);
+}
+
+.front_poster .leftArrow {
+  left: -2%;
+}
+
+.front_poster .rightArrow {
+  right: -2%;
+}
+
+.front_poster .img_picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .front_poster_background .textDiv {
@@ -335,5 +369,49 @@
 
   .locationPage__register .links_container {
     flex-direction: column;
+  }
+
+  .front_poster {
+    padding: 5vh 0;
+  }
+
+  /* .front_poster img {
+    max-width: 85%;
+  } */
+
+  .front_poster_background .content {
+    margin-bottom: 25px;
+    font-size: 2.75vh;
+  }
+
+  .front_poster_background .time-items p {
+    font-size: 2.5vh;
+  }
+
+  .front_poster_background .textDiv {
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+  }
+
+  .front_poster .arrow {
+    width: 10vw;
+    height: 7vh;
+    /* padding: 1vh; */
+    color: white;
+    position: absolute;
+    /* height: 100%; */
+    /* width: 5%; */
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .front_poster .leftArrow {
+    left: 0%;
+  }
+
+  .front_poster .rightArrow {
+    right: 0%;
   }
 }
