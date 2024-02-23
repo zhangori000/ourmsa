@@ -4,6 +4,25 @@
   background-color: black;
 }
 
+.home__videoContainer .videoArrow {
+  width: 10vw;
+  height: 10vh;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.home__videoContainer .leftArrow {
+  left: 0%;
+}
+
+.home__videoContainer .rightArrow {
+  right: 0%;
+}
+
 .youtubeContainer {
   width: 100%;
   height: 100vh;
@@ -383,11 +402,11 @@
 
 .home__locationsContainer__seattle .fifth {
   position: absolute;
-  left: 29%;
+  left: 26%;
   top: 35%;
 }
 .home__locationsContainer__seattle .fifth img {
-  height: 35vw;
+  height: 40vw;
 }
 
 .home__past {

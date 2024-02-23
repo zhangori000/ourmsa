@@ -30,7 +30,6 @@ export async function getVideoUrls() {
     "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/magicDiv.mov",
     "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/foodConcession.mov",
     "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/cafeteriaTour.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/aprilDancing.mov",
   ];
   // const img_order = [
   //   "threePeopleGrass.jpg",
@@ -63,29 +62,32 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   const ref = useRef(null);
-  const preloadedVideos = video_urls.map((videoUrl, index) => (
-    <video
-      className={`home__videoContainer__video ${
-        index === videoIdx ? "" : "hide"
-      }`}
-      key={videoUrl}
-      autoPlay
-      muted
-      onCanPlayThrough={() => {
-        setIsLoading(false);
-      }}
-      onEnded={(event) => {
-        // ref.current.pause();
-        // ref.current.currentTime = 0;
-        // ref.current.load();
-        // ref.current.src = video_urls[(videoIdx + 1) % video_urls.length];
-        setVideoIdx((prevIdx) => (prevIdx + 1) % video_urls.length);
-        event.target.currentTime = 0;
-      }}
-    >
-      <source src={videoUrl} type="video/mp4" />
-    </video>
-  ));
+  const preloadedVideos = video_urls.map((videoUrl, index) => {
+    console.log("reloaded videos");
+    return (
+      <video
+        className={`home__videoContainer__video ${
+          index === videoIdx ? "" : "hide"
+        }`}
+        id={`videoId${index}`}
+        key={videoUrl}
+        muted
+        onCanPlayThrough={() => {
+          setIsLoading(false);
+        }}
+        onEnded={(event) => {
+          // ref.current.pause();
+          // ref.current.currentTime = 0;
+          // ref.current.load();
+          // ref.current.src = video_urls[(videoIdx + 1) % video_urls.length];
+
+          setVideoIdx((prevIdx) => (prevIdx + 1) % video_urls.length);
+        }}
+      >
+        <source src={videoUrl} type="video/mp4" />
+      </video>
+    );
+  });
 
   useEffect(() => {
     const pastEventCards = document.querySelectorAll(".pastEventCard");
@@ -96,35 +98,67 @@ function Home() {
     });
   }, []); // Run only once after the component mounts
 
+  useEffect(() => {
+    let currentVideo = document.getElementById(`videoId${videoIdx}`);
+    currentVideo.currentTime = 0;
+    currentVideo.play();
+  }, [videoIdx]);
+
   return (
     <div className="home">
       <div className="home__videoContainer">
-        {/* <video
-          ref={ref}
-          playsInline
-          autoPlay
-          muted
-          id="bgvid"
-          className="home__videoContainer__video"
-          // className={`home__videoContainer__video ${
-          //   idx === videoIdx ? "--selected" : ""
-          // }`}
-          style={{
-            backgroundColor: "black",
-          }}
-          onEnded={() => {
-            // ref.current.pause();
-            // ref.current.currentTime = 0;
-            // ref.current.load();
-            ref.current.src = video_urls[(videoIdx + 1) % video_urls.length];
-            setVideoIdx((prevIdx) => (prevIdx + 1) % video_urls.length);
-          }}
-          onCanPlayThrough={() => {
-            setIsLoading(false);
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="videoArrow leftArrow"
+          onClick={() => {
+            let currentVideo = document.getElementById(`videoId${videoIdx}`);
+            currentVideo.pause();
+
+            setVideoIdx((prevIdx) => {
+              if (prevIdx - 1 === -1) {
+                return video_urls.length - 1;
+              }
+              return prevIdx - 1;
+            });
           }}
         >
-          <source src={`${video_urls[videoIdx]}`} type="video/mp4" />
-        </video> */}
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="videoArrow rightArrow"
+          onClick={() => {
+            let currentVideo = document.getElementById(`videoId${videoIdx}`);
+            currentVideo.pause();
+
+            setVideoIdx((prevIdx) => {
+              if (prevIdx + 1 === video_urls.length) {
+                return 0;
+              }
+              return prevIdx + 1;
+            });
+          }}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+          />
+        </svg>
+
         {preloadedVideos}
         <div className="home__videoContainer__textContainer">
           <h1 translate="no">明西书院</h1>

@@ -452,6 +452,12 @@ export const informationMap = {
         backgroundColor: "rgb(8 10 28)",
       },
     ],
+    registrationLinks: {
+      oneStudent:
+        "https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-one-student",
+      family:
+        "https://www.ourmsa.org/events/2024-summer-camp-seattle-registration-family",
+    },
   }, // end of seattle
   mn: {
     slideShowImages: [
@@ -1109,5 +1115,11 @@ export const informationMap = {
         backgroundColor: "rgb(8 10 28)",
       },
     ],
+  },
+  registrationLinks: {
+    oneStudent:
+      "https://www.ourmsa.org/events/2024-summer-camp-registration-one-student",
+    family:
+      "https://www.ourmsa.org/events/2024-summer-camp-registration-siblings",
   },
 };

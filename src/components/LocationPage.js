@@ -158,14 +158,14 @@ function LocationPage({ location }) {
           />
           <div className="links_container">
             <a
-              href="https://www.ourmsa.org/events/2024-summer-camp-registration-one-student"
+              href={informationMap[location]["registrationLinks"].oneStudent}
               target="_blank"
               rel="noreferrer"
             >
               One Child Registration
             </a>
             <a
-              href="https://www.ourmsa.org/events/2024-summer-camp-registration-siblings"
+              href={informationMap[location]["registrationLinks"].family}
               target="_blank"
               rel="noreferrer"
             >
