@@ -15,7 +15,7 @@ function Slideshow({ images }) {
       const nextSlide = (currentSlide + 1) % images.length;
       // console.log(`Current slide: ${currentSlide}, Next slide: ${nextSlide}`);
       setCurrentSlide(nextSlide);
-    }, 1500);
+    }, 3000);
     return () => {
       // console.log("Clearing slideshow interval");
       clearInterval(intervalId);

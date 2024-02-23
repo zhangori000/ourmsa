@@ -74,6 +74,8 @@ function Home() {
         onCanPlayThrough={() => {
           setIsLoading(false);
         }}
+        autoPlay
+        playsInline
         onEnded={(event) => {
           // ref.current.pause();
           // ref.current.currentTime = 0;
@@ -116,7 +118,7 @@ function Home() {
           onClick={() => {
             let currentVideo = document.getElementById(`videoId${videoIdx}`);
             currentVideo.pause();
-
+            currentVideo.currentTime = 0;
             setVideoIdx((prevIdx) => {
               if (prevIdx - 1 === -1) {
                 return video_urls.length - 1;
@@ -142,7 +144,7 @@ function Home() {
           onClick={() => {
             let currentVideo = document.getElementById(`videoId${videoIdx}`);
             currentVideo.pause();
-
+            currentVideo.currentTime = 0;
             setVideoIdx((prevIdx) => {
               if (prevIdx + 1 === video_urls.length) {
                 return 0;
