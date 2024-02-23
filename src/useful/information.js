@@ -391,6 +391,18 @@ export const informationMap = {
         imgUrl:
           "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher4.jpg",
       },
+      {
+        name: "宋雪梅 Angela Xuemei Song",
+        briefs: [
+          `本科毕业于中国美术学院动画专业，罗切斯特理工大学研究生。 从小学习传统国画，书法，醉心于国学艺术的传播与发扬，以及最新Ai设计工具的开发与运用。
+          高级交互设计师，目前设计ai相关软件。
+          曾就职于Disney，Amazon，Beachmark Education美国教育出版社 ,华尔街公司等。`,
+        ],
+        brief_english:
+          "Angela Xuemei Song graduated from the China Academy of Art with a BFA, and from RIT with a MFA in film and animation. A traditional Chinese brush painter since childhood, she is passionate about sharing knowledge with the community and researching AI design tools. Angela worked for companies including Disney, Amazon, Benchmark Education, and Walt Street as a human center designer.",
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-angelaXueMei.jpg",
+      },
     ],
     headerHtml: (
       <div className="seattle__videoContainer__textContainer">
@@ -1036,6 +1048,18 @@ export const informationMap = {
         ],
         imgUrl:
           "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-limoProfilePic.jpg",
+      },
+      {
+        name: "宋雪梅 Angela Xuemei Song",
+        briefs: [
+          `本科毕业于中国美术学院动画专业，罗切斯特理工大学研究生。 从小学习传统国画，书法，醉心于国学艺术的传播与发扬，以及最新Ai设计工具的开发与运用。
+          高级交互设计师，目前设计ai相关软件。
+          曾就职于Disney，Amazon，Beachmark Education美国教育出版社 ,华尔街公司等。`,
+        ],
+        brief_english:
+          "Angela Xuemei Song graduated from the China Academy of Art with a BFA, and from RIT with a MFA in film and animation. A traditional Chinese brush painter since childhood, she is passionate about sharing knowledge with the community and researching AI design tools. Angela worked for companies including Disney, Amazon, Benchmark Education, and Walt Street as a human center designer.",
+        imgUrl:
+          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-angelaXueMei.jpg",
       },
     ],
     headerHtml: (

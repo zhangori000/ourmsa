@@ -63,6 +63,29 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   const ref = useRef(null);
+  const preloadedVideos = video_urls.map((videoUrl, index) => (
+    <video
+      className={`home__videoContainer__video ${
+        index === videoIdx ? "" : "hide"
+      }`}
+      key={videoUrl}
+      autoPlay
+      muted
+      onCanPlayThrough={() => {
+        setIsLoading(false);
+      }}
+      onEnded={(event) => {
+        // ref.current.pause();
+        // ref.current.currentTime = 0;
+        // ref.current.load();
+        // ref.current.src = video_urls[(videoIdx + 1) % video_urls.length];
+        setVideoIdx((prevIdx) => (prevIdx + 1) % video_urls.length);
+        event.target.currentTime = 0;
+      }}
+    >
+      <source src={videoUrl} type="video/mp4" />
+    </video>
+  ));
 
   useEffect(() => {
     const pastEventCards = document.querySelectorAll(".pastEventCard");
@@ -76,7 +99,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home__videoContainer">
-        <video
+        {/* <video
           ref={ref}
           playsInline
           autoPlay
@@ -101,18 +124,19 @@ function Home() {
           }}
         >
           <source src={`${video_urls[videoIdx]}`} type="video/mp4" />
-        </video>
+        </video> */}
+        {preloadedVideos}
         <div className="home__videoContainer__textContainer">
           <h1 translate="no">明西书院</h1>
           <IconButton>
             <KeyboardDoubleArrowDownIcon className="home__videoContainer__textContainer__arrowDown" />
           </IconButton>
         </div>
-        {/* {isLoading ? (
+        {isLoading ? (
           <div className="home__videoContainer__loadingContainer">
             <CircularProgress size={100} thickness={5} />
           </div>
-        ) : null} */}
+        ) : null}
       </div>
 
       <div className="home__introduction">
@@ -133,6 +157,15 @@ function Home() {
             Note: Right-click anywhere on the page and select "Translate to
             [Language]" from the context menu.
           </p>
+        </div>
+      </div>
+
+      <div className="home__bigAdPoster">
+        <div className="container">
+          <img
+            src="https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-bigAdPoster.jpg"
+            alt="advertisement image"
+          />
         </div>
       </div>
 

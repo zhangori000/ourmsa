@@ -15,6 +15,10 @@
   height: 100% !important;
 }
 
+.home .hide {
+  display: none;
+}
+
 .home__videoContainer .reactVideoComponent > video {
   height: 100vh;
   width: 100%;
@@ -92,6 +96,21 @@
   height: 100%;
   position: absolute;
   top: 10%;
+}
+
+.home__bigAdPoster {
+  margin-bottom: 8vh;
+}
+
+.home__bigAdPoster .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__bigAdPoster img {
+  object-fit: contain;
+  max-width: 88%;
 }
 
 .home__introduction {
@@ -390,6 +409,11 @@
     font-size: 8vh;
     letter-spacing: 1vh;
     padding-left: 0;
+  }
+
+  .home__bigAdPoster img {
+    object-fit: contain;
+    max-width: 100%;
   }
 }
 
