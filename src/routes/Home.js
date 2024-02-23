@@ -63,7 +63,6 @@ function Home() {
 
   const ref = useRef(null);
   const preloadedVideos = video_urls.map((videoUrl, index) => {
-    console.log("reloaded videos");
     return (
       <video
         className={`home__videoContainer__video ${
