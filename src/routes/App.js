@@ -29,41 +29,53 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  const substrings = ["中华小当家", "明西书院", "明州本部", "西雅图分校"];
   const contentRef = useRef();
 
   useEffect(() => {
+    const substrings = ["中华小当家", "明西书院", "明州本部", "西雅图分校"];
+    const nodesToReplace = []; // Array to store nodes that need to be replaced
     // TODO: FIX THE LOGIC
-    const traverseDOM = (node) => {
-      if (node.nodeType === Node.ELEMENT_NODE) {
-        const childNodes = node.childNodes;
-
-        for (let i = 0; i < childNodes.length; i++) {
-          traverseDOM(childNodes[i]);
-        }
-      } else if (node.nodeType === Node.TEXT_NODE) {
-        const parentElement = node.parentElement;
-        const nodeText = node.textContent;
-
-        for (const substring of substrings) {
-          if (nodeText.includes(substring)) {
-            const newHTML = nodeText.replaceAll(
-              substring,
-              `<span translate="no">${substring}</span>`
+    const processTextNode = (node) => {
+      let newHTML = node.nodeValue;
+      substrings.forEach((substring) => {
+        if (newHTML.includes(substring)) {
+          newHTML = newHTML
+            .split(substring)
+            .join(
+              `<span translate="no" data-skip-translation="true">${substring}</span>`
             );
-            const newElement = document.createElement("span");
-            newElement.innerHTML = newHTML;
-            // check if the node is a direct child of the parentElement
-            if (parentElement.contains(node)) {
-              parentElement.replaceChild(newElement, node);
-            }
-          }
+        }
+      });
+      // node.parentNode.appendChild(document.createTextNode(newHTML));
+      nodesToReplace.push({ node, newHTML });
+    };
+
+    const traverse = (node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        processTextNode(node);
+      } else if (
+        node.nodeType === Node.ELEMENT_NODE &&
+        !node.dataset.skipTranslation
+      ) {
+        const children = node.childNodes;
+        for (let i = 0; i < children.length; i++) {
+          traverse(children[i]);
         }
       }
     };
 
     const rootElement = contentRef.current;
-    traverseDOM(rootElement);
+    // const rootElement = document.querySelector(".youtubeDescription");
+    traverse(rootElement);
+    // Replace text nodes
+    nodesToReplace.forEach(({ node, newHTML }) => {
+      const tempNode = document.createElement("div");
+      tempNode.innerHTML = newHTML;
+      while (tempNode.firstChild) {
+        node.parentNode.insertBefore(tempNode.firstChild, node);
+      }
+      node.parentNode.removeChild(node);
+    });
   }, []);
 
   return (
