@@ -17,19 +17,19 @@ import { getDownloadSrc } from "../useful/filePathTools.js";
 
 export async function getVideoUrls() {
   const video_urls = [
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/liningUp.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/dinosaur.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/volunteerDance.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/newtonsLaws.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/redDancers.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/tvDance.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/crazyDancing.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/williamDancing.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/robotSetup.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/magicTeacher.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/magicDiv.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/foodConcession.mov",
-    "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/cafeteriaTour.mov",
+    "https://dfiit17cey0yc.cloudfront.net/liningUp.mov",
+    "https://dfiit17cey0yc.cloudfront.net/dinosaur.mov",
+    "https://dfiit17cey0yc.cloudfront.net/volunteerDance.mov",
+    "https://dfiit17cey0yc.cloudfront.net/newtonsLaws.mov",
+    "https://dfiit17cey0yc.cloudfront.net/redDancers.mov",
+    "https://dfiit17cey0yc.cloudfront.net/tvDance.mov",
+    "https://dfiit17cey0yc.cloudfront.net/crazyDancing.mov",
+    "https://dfiit17cey0yc.cloudfront.net/williamDancing.mov",
+    "https://dfiit17cey0yc.cloudfront.net/robotSetup.mov",
+    "https://dfiit17cey0yc.cloudfront.net/magicTeacher.mov",
+    "https://dfiit17cey0yc.cloudfront.net/magicDiv.mov",
+    "https://dfiit17cey0yc.cloudfront.net/foodConcession.mov",
+    "https://dfiit17cey0yc.cloudfront.net/cafeteriaTour.mov",
   ];
   // const img_order = [
   //   "threePeopleGrass.jpg",
@@ -198,7 +198,7 @@ function Home() {
       <div className="home__bigAdPoster">
         <div className="container">
           <img
-            src="https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-bigAdPoster.jpg"
+            src="https://dfiit17cey0yc.cloudfront.net/2024-bigAdPoster.jpg"
             alt="advertisement image"
           />
         </div>
@@ -210,7 +210,6 @@ function Home() {
           height="100%"
           src="https://www.youtube.com/embed/f9VM1yg6UAc"
           title="Unearthed: Journey to Tomorrow【明西.环保战记】PSA"
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
@@ -230,7 +229,7 @@ function Home() {
 
       <MobileComponentA
         imgUrls={[
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_mn_mobile_poster.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024_mn_mobile_poster.jpg",
         ]}
         text={
           "这里是“中华小当家”的大本营所在地。自2016年初创至今，一直致力于为当地华人家庭及学习中文的学生们，提供一个具有深度文化内核，又有创新力和吸引力的精品夏令营。经过8年时间的心血打造，明州“中华小当家“以绝对的人气和口碑，成为孩子们最盼望的，也是家长们最放心的热门夏令营首选。"
@@ -254,32 +253,26 @@ function Home() {
         <div className="second">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattle_main_science_poster.jpg"
+              "https://dfiit17cey0yc.cloudfront.net/seattle_main_science_poster.jpg"
             }
             alt="summer camp poster"
           />
         </div>
         <div className="third">
           <img
-            src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/threePeopleGrass.jpg"
-            }
+            src={"https://dfiit17cey0yc.cloudfront.net/threePeopleGrass.jpg"}
             alt="dancingInCircle"
           />
         </div>
         <div className="fourth">
           <img
-            src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/pinkDinos.jpg"
-            }
+            src={"https://dfiit17cey0yc.cloudfront.net/pinkDinos.jpg"}
             alt="kids in dinosarus"
           />
         </div>
         <div className="fifth">
           <img
-            src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/manyKidsReading.jpg"
-            }
+            src={"https://dfiit17cey0yc.cloudfront.net/manyKidsReading.jpg"}
             alt="kids reading something"
           />
         </div>
@@ -289,7 +282,7 @@ function Home() {
       {/* Seattle */}
       <MobileComponentA
         imgUrls={[
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_seattle_mobile_poster.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024_seattle_mobile_poster.jpg",
         ]}
         text={
           "西雅图分校落户于环境优美，毗邻华大的Ravenna中心地段。优越的地理位置，齐备的运动设施，再加上一批力邀加盟的优秀老师，西雅图团队将把高品质的“中华小当家”中文夏令营，在今夏完美复刻！并将糅合自己的独家特色，为周边的华人家庭和学习中文的孩子们打造六周精彩的暑期生活"
@@ -310,7 +303,7 @@ function Home() {
         <div className="second">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_groupPictureFirstSeen.jpg"
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_groupPictureFirstSeen.jpg"
             }
             alt="cherry tree in seattle"
           />
@@ -318,7 +311,7 @@ function Home() {
         <div className="third">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_andrewWorking.jpg"
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_andrewWorking.jpg"
             }
             alt="downtown seattle"
           />
@@ -326,7 +319,7 @@ function Home() {
         <div className="fourth">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_amyHappy.jpg"
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_amyHappy.jpg"
             }
             alt="company logo vertical"
           />
@@ -334,7 +327,7 @@ function Home() {
         <div className="fifth">
           <img
             src={
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattle_main_science_poster.jpg"
+              "https://dfiit17cey0yc.cloudfront.net/seattle_main_science_poster.jpg"
             }
             alt="company poster for seattle"
           />
@@ -355,7 +348,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_fourGoodFriends.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2023_seattle_fourGoodFriends.jpg",
               },
               {
                 info: {
@@ -368,7 +361,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_lilianDrawing.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2023_mn_lilianDrawing.jpg",
               },
               {
                 info: {
@@ -381,7 +374,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/screamingDino2022.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/screamingDino2022.jpg",
               },
               {
                 info: {
@@ -399,7 +392,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2021CuteGallery.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2021CuteGallery.jpg",
               },
               {
                 info: {
@@ -412,7 +405,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2020amyDrawingZoom.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2020amyDrawingZoom.jpg",
               },
               {
                 info: {
@@ -441,7 +434,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2019AlienPose.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2019AlienPose.jpg",
               },
               {
                 info: {
@@ -458,7 +451,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2018KidsMicroscope.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2018KidsMicroscope.jpg",
               },
               {
                 info: {
@@ -471,7 +464,7 @@ function Home() {
                   ],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2017gossipGirls.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2017gossipGirls.jpg",
               },
               {
                 info: {
@@ -479,7 +472,7 @@ function Home() {
                   links: [],
                 },
                 imgUrl:
-                  "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2016littleWilliam.jpg",
+                  "https://dfiit17cey0yc.cloudfront.net/2016littleWilliam.jpg",
               },
             ]}
           />

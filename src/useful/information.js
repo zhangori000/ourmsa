@@ -5,30 +5,29 @@ export const informationMap = {
     slideShowImages: [
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_amyHappy.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_seattle_amyHappy.jpg",
         object_position: "50% 30%",
       },
       {
         // img_url: "seattlePageSlide1Princess.jpg"],
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_groupPictureFirstSeen.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_seattle_groupPictureFirstSeen.jpg",
         object_position: "50% 30%",
       },
       {
-        img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_redFan.jpg",
+        img_url: "https://dfiit17cey0yc.cloudfront.net/2023_seattle_redFan.jpg",
         object_position: "50% 15%",
       },
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_twoGirlsLunch.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_seattle_twoGirlsLunch.jpg",
         object_position: "50% 15%",
       },
 
       {
         // img_url: "seattlePageSlide1Princess.jpg"],
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_chessCheese.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_seattle_chessCheese.jpg",
         object_position: "50% 50%",
       },
     ],
@@ -38,84 +37,84 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidsPlayingWithLegos.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidsPlayingWithLegos.jpg",
             style: {
               objectPosition: "50% 40%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidsPainting.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidsPainting.jpg",
             style: {
               objectPosition: "50% 52%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidsPlayingChess.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidsPlayingChess.jpg",
             style: {
               objectPosition: "50% 31%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidsLearningOnTable.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidsLearningOnTable.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidsGatheringToy.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidsGatheringToy.jpg",
             style: {
               objectPosition: "50% 22%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidSquirtingPaint.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidSquirtingPaint.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_more_chess.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_more_chess.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_girl_teaching_legos.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_girl_teaching_legos.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_teacherWhiteboardFinger.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_teacherWhiteboardFinger.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_teacherTeachingAngela.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_teacherTeachingAngela.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_studentsJumping.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_studentsJumping.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_teacherGatherAroundTeacher.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_teacherGatherAroundTeacher.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -127,49 +126,49 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_boyThrowingDart.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_boyThrowingDart.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_flossDance.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_flossDance.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_girlsSplits.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_girlsSplits.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_stringJump.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_stringJump.jpg",
             style: {
               objectPosition: "50% 43%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_makePaper.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_makePaper.jpg",
             style: {
               objectPosition: "50% 43%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_coachingKids.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_coachingKids.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_kidsArching.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_kidsArching.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -181,42 +180,42 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_sesameChicken.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_sesameChicken.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_mexican.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_mexican.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_littleKidPrayingForFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_littleKidPrayingForFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_greenBeans.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_greenBeans.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_twoGirlsLunch.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_twoGirlsLunch.jpg",
             style: {
               objectPosition: "50% 15%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_steamedBuns.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_steamedBuns.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -228,49 +227,49 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_cuteRedGarden.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_cuteRedGarden.jpg",
             style: {
               objectPosition: "50% 70%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_redFan.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_redFan.jpg",
             style: {
               objectPosition: "50% 15%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_andrewWorking.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_andrewWorking.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_telescope.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_telescope.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_fan.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_fan.jpg",
             style: {
               objectPosition: "50% 24%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_drawingSomething.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_drawingSomething.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_playdohLooking.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_playdohLooking.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -282,35 +281,35 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_groupPictureFirstSeen.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_groupPictureFirstSeen.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_angelaStanding.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_angelaStanding.jpg",
             style: {
               objectPosition: "40% 20%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_amyHappy.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_amyHappy.jpg",
             style: {
               objectPosition: "50% 35%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_fourGoodFriends.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_fourGoodFriends.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_groupBridge.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_groupBridge.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -325,16 +324,14 @@ export const informationMap = {
         briefs: [
           "现任华盛顿大学中文旗舰项目讲师。华东师范大学应用语言学硕士，曾在复旦大学，新加坡国际学校和美国中文沉浸式小学工作",
         ],
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher2.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/seattleTeacher2.jpg",
       },
       {
         name: "Jiabang Wu",
         briefs: [
           "A private high school teacher in Seattle. I have 7 years of experience teaching Chinese Language and Literature to different age groups. I hold Bilingual Education and Chinese Teaching Certificates in multiple States. I previously worked as a Chinese immersion classroom teacher in public schools.",
         ],
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher3.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/seattleTeacher3.jpg",
       },
       {
         name: "哈斯 Hasi Shaffer",
@@ -352,7 +349,7 @@ export const informationMap = {
           
           And I'm running a small kids art studio, it's a joy to share my knowledge about art with the kids, and I love helping them shows themselves through lart. `,
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-newTeacher2.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-newTeacher2.jpg",
       },
       {
         name: "王婷婷 Wang Tingting",
@@ -361,7 +358,7 @@ export const informationMap = {
         ],
         brief_english: `My name is Wang Tingting. I have been living in the United States for thirteen years. I graduated from Tianjin Normal University in China and have nearly three years of teaching experience there. I also taught Mandarin to elementary school students in Hong Kong for a year. Since coming to the U.S., I have obtained degrees in web development and data science. I enjoy spending time with children, love fluffy animals, and look forward to having a joyful summer with the kids!`,
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-newTeacher1.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-newTeacher1.jpg",
       },
       {
         name: "Dr. Jingwei Meng; 孟京伟教授（MBA for Youth）现任职于印第安纳大学",
@@ -371,15 +368,14 @@ export const informationMap = {
         brief_english:
           "Dr. Jingwei Meng is currently a faculty member at Indiana University. He obtained his Ph.D. degree from Duke University and a MBA degree in finance and supply chain management from Indiana University Kelley School of Business. Dr. Meng is the co-founder of Melody Culture Foundation, a 501(c)(3) not-for-profit organization established in 2004. He is actively involved in many cultural and educational services, including the first Chinese TV program in San Diego, concerts and master classes in music, summer and winter camps in business, and systematic business training for middle school and high school students. Since 2018, Dr. Meng has developed a comprehensive suite of business courses (“MBA for Youth” Program) and instructed in summer and winter camps across the US. His business classes are also offered as online weekly programs during spring and fall semesters.",
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-indianaProfessor.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-indianaProfessor.jpg",
       },
       {
         name: "张天晓",
         briefs: [
           "Hello, my name is Amy Zhang and I am thrilled to be part of the Seattle Camp debut! As a Computer Science major and Piano teacher based in San Diego, I have a passion for both technology and the arts. Originally from Minnesota, I began volunteering at 明西书院 during high school and developed a love for teaching and mentoring. Alongside my teaching, I have played piano and violin for over 12 years, performing with ensembles, gigs, and orchestras. I am excited to share my knowledge and experiences with the students and help them explore their interests and talents.",
         ],
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacherAmy.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/seattleTeacherAmy.jpg",
       },
       {
         name: "张翎",
@@ -388,8 +384,7 @@ export const informationMap = {
         ],
         brief_english:
           "Ling Zhang, B.A Peking University, M.A statistics from Columbia University and PH.D. from University of Minnesota.  Career in financial services at investment consulting company (CFA charter holder). Current treasurer and program manager in a startup company. Many years of experience volunteering in local community garden and school PTA with financial expertise. Dedicated volunteer and supporter for many local community and non-profit organizations.",
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/seattleTeacher4.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/seattleTeacher4.jpg",
       },
       {
         name: "宋雪梅 Angela Xuemei Song",
@@ -400,8 +395,7 @@ export const informationMap = {
         ],
         brief_english:
           "Angela Xuemei Song graduated from the China Academy of Art with a BFA, and from RIT with a MFA in film and animation. A traditional Chinese brush painter since childhood, she is passionate about sharing knowledge with the community and researching AI design tools. Angela worked for companies including Disney, Amazon, Benchmark Education, and Walt Street as a human center designer.",
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-angelaXueMei.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/2024-angelaXueMei.jpg",
       },
     ],
     headerHtml: (
@@ -438,17 +432,17 @@ export const informationMap = {
     bigPosters: [
       {
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_seattle_main_science_poster.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024_seattle_main_science_poster.jpg",
         backgroundColor: "#15191f",
       },
       {
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-cyborgPoster.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-cyborgPoster.jpg",
         backgroundColor: "rgb(8 9 11)",
       },
       {
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-mbaPhysics.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-mbaPhysics.jpg",
         backgroundColor: "rgb(8 10 28)",
       },
     ],
@@ -463,37 +457,36 @@ export const informationMap = {
     slideShowImages: [
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_weiliScienceBowl.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_mn_weiliScienceBowl.jpg",
         object_position: "50% 50%",
       },
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_deanPhillips.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_mn_deanPhillips.jpg",
         object_position: "50% 11%",
       },
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_danceLookout.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_mn_danceLookout.jpg",
+        object_position: "50% 50%",
+      },
+      {
+        img_url: "https://dfiit17cey0yc.cloudfront.net/2023_mn_twoBoysUke.jpg",
         object_position: "50% 50%",
       },
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_twoBoysUke.jpg",
-        object_position: "50% 50%",
-      },
-      {
-        img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_girlDoingMakeUp.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_mn_girlDoingMakeUp.jpg",
         object_position: "50% 5%",
       },
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_girlWithBigCards.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_mn_girlWithBigCards.jpg",
         object_position: "50% 50%",
       },
       {
         img_url:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_redFanDanceGroup.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2023_mn_redFanDanceGroup.jpg",
         object_position: "50% 50%",
       },
     ],
@@ -503,7 +496,7 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_VR_angela.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_VR_angela.jpg",
             style: {
               objectPosition: "50% 30%",
             },
@@ -511,84 +504,84 @@ export const informationMap = {
 
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_VR_sharon.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_VR_sharon.jpg",
             style: {
               objectPosition: "50% 40%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_aprilTeaching.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_aprilTeaching.jpg",
             style: {
               objectPosition: "50% 40%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_blackDressTeaching.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_blackDressTeaching.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_girlStandingOnChair.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_girlStandingOnChair.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_guestSpeakerKneeling.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_guestSpeakerKneeling.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_japaneseObedience.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_japaneseObedience.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_johnMomTeaching.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_johnMomTeaching.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_manBendingTeachingJapan.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_manBendingTeachingJapan.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_microscope.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_microscope.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_volunteerPlane.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_volunteerPlane.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_weiliHeart.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_weiliHeart.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_yellowDesksGroup.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_yellowDesksGroup.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -600,42 +593,42 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_littleEmilyChineseMusic.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_littleEmilyChineseMusic.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_erHuLesson.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_erHuLesson.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_groupUkeAesthetic.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_groupUkeAesthetic.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_ranRanUke.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_ranRanUke.jpg",
             style: {
               objectPosition: "50% 28%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_ranRanUkeTalking.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_ranRanUkeTalking.jpg",
             style: {
               objectPosition: "50% 28%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_twoKidsUke.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_twoKidsUke.jpg",
             style: {
               objectPosition: "50% 30%",
             },
@@ -647,70 +640,70 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_brownerAssortmentFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_brownerAssortmentFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_evenBrownerFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_evenBrownerFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_foodThumbsUp.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_foodThumbsUp.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_girlFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_girlFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_lineSushiFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_lineSushiFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_oragnesFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_oragnesFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_orangeOnPlate.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_orangeOnPlate.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_ranranFoodLine.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_ranranFoodLine.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_sharonServingFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_sharonServingFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_seattle_assortmentOfFood.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_seattle_assortmentOfFood.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -722,28 +715,28 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_bigLaughsGroup.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_bigLaughsGroup.jpg",
             style: {
               objectPosition: "50% 70%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_groupPhoto.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_groupPhoto.jpg",
             style: {
               objectPosition: "50% 70%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_groupRedTile.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_groupRedTile.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_heRuSelfieFourSign.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_heRuSelfieFourSign.jpg",
             style: {
               objectPosition: "50% 30%",
             },
@@ -755,91 +748,90 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_lilianDrawing.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_lilianDrawing.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_angelaPottery.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_angelaPottery.jpg",
             style: {
               objectPosition: "50% 90%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_catBlocks.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_catBlocks.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_cheeksBluePainting.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_cheeksBluePainting.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_coloredBag.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_coloredBag.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_coloredRag.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_coloredRag.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_coloredRagHeRu.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_coloredRagHeRu.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_coolChineseCeiling.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_coolChineseCeiling.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_fishHandcrafts.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_fishHandcrafts.jpg",
             style: {
               objectPosition: "50% 70%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_fishHandcraftsTwoGirls.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_fishHandcraftsTwoGirls.jpg",
             style: {
               objectPosition: "50% 60%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_girlLegoHouse.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_girlLegoHouse.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_kidRainbowCats.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_kidRainbowCats.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
-            img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_legoBox.jpg",
+            img_url: "https://dfiit17cey0yc.cloudfront.net/2023_mn_legoBox.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -847,21 +839,20 @@ export const informationMap = {
 
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_oneGuyFu.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_oneGuyFu.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
-            img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_pastels.jpg",
+            img_url: "https://dfiit17cey0yc.cloudfront.net/2023_mn_pastels.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_someoneLookingAtPlay.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_someoneLookingAtPlay.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -873,28 +864,28 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_carnivalStageLookout.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_carnivalStageLookout.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_carnivalBoy.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_carnivalBoy.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_carnivalCottonCandy.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_carnivalCottonCandy.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_carnivalSpikes.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_carnivalSpikes.jpg",
             style: {
               objectPosition: "50% 60%",
             },
@@ -902,28 +893,28 @@ export const informationMap = {
 
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_ivankaSingingCarnival.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_ivankaSingingCarnival.jpg",
             style: {
               objectPosition: "50% 30%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_pearlSingingCarnival.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_pearlSingingCarnival.jpg",
             style: {
               objectPosition: "50% 40%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_volunteerDirectingCarnival.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_volunteerDirectingCarnival.jpg",
             style: {
               objectPosition: "50% 40%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_williamCards.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_williamCards.jpg",
             style: {
               objectPosition: "50% 70%",
             },
@@ -935,49 +926,49 @@ export const informationMap = {
         images: [
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_aestheticMochi.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_aestheticMochi.jpg",
             style: {
               objectPosition: "50% 60%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_angieBakingKids.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_angieBakingKids.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_coolJello.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_coolJello.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_heartPizza.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_heartPizza.jpg",
             style: {
               objectPosition: "50% 35%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_kaylaShowingPhone.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_kaylaShowingPhone.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_stirringBlue.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_stirringBlue.jpg",
             style: {
               objectPosition: "50% 50%",
             },
           },
           {
             img_url:
-              "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023_mn_groupFlourPour.jpg",
+              "https://dfiit17cey0yc.cloudfront.net/2023_mn_groupFlourPour.jpg",
             style: {
               objectPosition: "50% 50%",
             },
@@ -1045,7 +1036,7 @@ export const informationMap = {
           "Dr. Jingwei Meng is currently a faculty member at Indiana University. He obtained his Ph.D. degree from Duke University and a MBA degree in finance and supply chain management from Indiana University Kelley School of Business. Dr. Meng is the co-founder of Melody Culture Foundation, a 501(c)(3) not-for-profit organization established in 2004. He is actively involved in many cultural and educational services, including the first Chinese TV program in San Diego, concerts and master classes in music, summer and winter camps in business, and systematic business training for middle school and high school students. Since 2018, Dr. Meng has developed a comprehensive suite of business courses (“MBA for Youth” Program) and instructed in summer and winter camps across the US. His business classes are also offered as online weekly programs during spring and fall semesters.",
         ],
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-indianaProfessor.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-indianaProfessor.jpg",
       },
       {
         name: "Dr. Mo Li",
@@ -1053,7 +1044,7 @@ export const informationMap = {
           "Dr. Mo Li is a Professor in the UW Department of Electrical & Computer Engineering and the UW Physics Department. Prior to joining UW in 2018, he was a faculty member in the Department of Electrical and Computer Engineering at the University of Minnesota since 2010. From 2007 to 2010, he was a postdoctoral associate in the Department of Electrical Engineering at Yale University. He received his Ph.D. degree in Applied Physics from Caltech in 2007, B.S. degree in Physics from the University of Science and Technology of China (USTC) in 2001. Dr. Li is the principal investigator of the Laboratory of Photonic Devices at UW. His main research interests include integrated photonics, optoelectronics, optomechanics, NEMS/MEMS, spintronics, and quantum photonics. He has published over 80 peer-reviewed journal papers and has been granted 6 US patents.",
         ],
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-seattle-limoProfilePic.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024-seattle-limoProfilePic.jpg",
       },
       {
         name: "宋雪梅 Angela Xuemei Song",
@@ -1064,8 +1055,7 @@ export const informationMap = {
         ],
         brief_english:
           "Angela Xuemei Song graduated from the China Academy of Art with a BFA, and from RIT with a MFA in film and animation. A traditional Chinese brush painter since childhood, she is passionate about sharing knowledge with the community and researching AI design tools. Angela worked for companies including Disney, Amazon, Benchmark Education, and Walt Street as a human center designer.",
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-angelaXueMei.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/2024-angelaXueMei.jpg",
       },
     ],
     headerHtml: (
@@ -1101,17 +1091,15 @@ export const informationMap = {
     bigPosters: [
       {
         imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_mn_main_science_poster.jpg",
+          "https://dfiit17cey0yc.cloudfront.net/2024_mn_main_science_poster.jpg",
         backgroundColor: "#15191f",
       },
       {
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-mn-cyborgPoster.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/2024-mn-cyborgPoster.jpg",
         backgroundColor: "rgb(8 9 11)",
       },
       {
-        imgUrl:
-          "https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-mn-mbaPhysics.jpg",
+        imgUrl: "https://dfiit17cey0yc.cloudfront.net/2024-mn-mbaPhysics.jpg",
         backgroundColor: "rgb(8 10 28)",
       },
     ],

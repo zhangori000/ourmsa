@@ -120,24 +120,24 @@ function LocationPage({ location }) {
       {/* <TimelineSchedule location="mn" weeks={[1, 2, 3, 4, 5, 6, 7, 8]} /> */}
       {/* <div className="locationPage__classIntro">
         <PictureContainer
-          picture={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_class_introduction_${location}.jpg`}
+          picture={`https://dfiit17cey0yc.cloudfront.net/2024_class_introduction_${location}.jpg`}
           objectFitContain
         />
 
         <PictureContainer
-          picture={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024_class_introduction2_${location}.jpg`}
+          picture={`https://dfiit17cey0yc.cloudfront.net/2024_class_introduction2_${location}.jpg`}
         />
       </div> */}
       <div className="locationPage__schedule">
         <div className="locationPage__schedule__left">
           <img
-            src={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2024-${location}-blackSchedule.jpg`}
+            src={`https://dfiit17cey0yc.cloudfront.net/2024-${location}-blackSchedule.jpg`}
             alt={`${location} class schedule`}
           />
         </div>
         <div className="locationPage__schedule__right">
           <img
-            src={`https://ourmsacodingfolder.s3.us-east-2.amazonaws.com/2023-${location}-schedule.jpg`}
+            src={`https://dfiit17cey0yc.cloudfront.net/2023-${location}-schedule.jpg`}
             alt={`${location} class schedule times`}
           />
         </div>
