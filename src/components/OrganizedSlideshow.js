@@ -45,11 +45,33 @@ function OrganizedSlideshow({ organizedSlideshow }) {
     return organizedSlideshow.map((organization) => organization.albumName);
   };
 
+  // preload each album with their respective images
+  const albumsDict = {};
+
+  organizedSlideshow.forEach((album) => {
+    const { albumName, images } = album;
+    const imgTags = images.map((image, index) => (
+      <div
+        style={{ display: selectedCategory === albumName ? "block" : "none" }}
+        className={`slide${index === currentSlide ? " active" : ""}`}
+        key={`div-containing-img-${index}`}
+      >
+        <img
+          src={image.img_url}
+          style={image.style}
+          alt={`Slide ${index + 1}`}
+        />
+      </div>
+    ));
+
+    albumsDict[albumName] = imgTags;
+  });
+
   return (
     <div className="slideshow-container">
       {/* Slides */}
       <div className="slides">
-        {getImagesBasedOnCategory(selectedCategory).map(
+        {/* {getImagesBasedOnCategory(selectedCategory).map(
           ({ img_url, style }, index) => {
             let isActive = currentSlide === index;
             return (
@@ -58,7 +80,8 @@ function OrganizedSlideshow({ organizedSlideshow }) {
               </div>
             );
           }
-        )}
+        )} */}
+        {Object.entries(albumsDict).map(([albumName, imgTags]) => imgTags)}
       </div>
 
       {/* left arrow */}
