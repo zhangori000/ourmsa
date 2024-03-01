@@ -60,6 +60,7 @@ function Home() {
   const { video_urls } = useLoaderData();
   const [videoIdx, setVideoIdx] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   const ref = useRef(null);
   const preloadedVideos = video_urls.map((videoUrl, index) => {
@@ -216,7 +217,7 @@ function Home() {
       </div>
 
       <div className="youtubeDescription">
-        <div className="container">
+        <div className={`container ${expanded ? "expanded" : ""}`}>
           <p>
             “Unearthed—— Journey to
             Tomorrow”，这是一部由中小学生为原创主体制作的MV。以夏令营的VR虚拟现实课程为引子，介绍了一段VR世界里发生的幻想片段——来自未来的警告把尝试VR课程的学生带入未来，看到垃圾重度污染，全球变暖加剧，即将毁灭地球的场面。回到现实中的学生们决定为了明天而战，积极参与环保活动，提高并且宣传环保意识，想要以今天的觉醒和努力为不远的将来搏得一线生机。
@@ -224,6 +225,14 @@ function Home() {
             “中华小当家”夏令营，是一家创办八年，以趣味中文主题和高科技培优课程为主的中文夏令营。每年因其新颖的课程设计和用心的高质量教学服务吸引了一大批粉丝学员。今年小当家选用了爆款大热歌曲《孤勇者》作为2023年度主题，并为此设计了中文、实验、舞蹈、机器人、虚拟现实等相关课程，并将这些系列课程与环保元素创意融合。在高中生编导团队的辛苦努力下，得到来自家长们和学员们的踊跃支持。她们令人惊喜地推出了这部原创环保主题MV。这部MV
             既承载了小当家所有师生们在今年夏天的美好回忆，也是眀西书院集体对环境保护的承诺。携童稚之声、孤勇之心，痛问沉疴之世：假如明天来临，地球会是什么模样？
           </p>
+        </div>
+        <div
+          className="show-more"
+          onClick={() => {
+            setExpanded(!expanded);
+          }}
+        >
+          {expanded ? "Show Less" : "Show More"}
         </div>
       </div>
 
